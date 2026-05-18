@@ -1,0 +1,59 @@
+中医诊疗 (Traditional Chinese Medicine) 这条线 与 china-icp-filing 一样 是 中文重监管 + 海外多边 行业, 但 一手信息源结构 比 ICP 备案 更 多层、更 古今交错。第一, 一手内容 分布在 至少 七条 平行链 — (1) 中央监管: 国家中医药管理局 NATCM (natcm.gov.cn, 中医独立监管, 国务院直属副部级局) + 国家卫健委 NHC + 国家药监局 NMPA (中药注册 + 不良反应) + 国务院 / 全国人大 (中医药法 + 配套法规一手) + 最高法 (中医医疗损害 / 非法行医 判决) + 中国药典委员会 chp.org.cn (国家药典 一部 中药材标准); (2) 省级监管: 各省 中医药管理局 .gov.cn 子域名 (北京 / 上海 / 广东 / 江苏 / 浙江 / 四川 / 天津 / 黑龙江 等 中医资源大省 一手 各有专门通告 — 民间师承 + 备案细则 + 院内制剂 各省口径差异显著); (3) 协会层: 中华中医药学会 cacm.org.cn (主战场 — 国家级协会 + 团体标准 + 临床指南 一手) + 中国针灸学会 + 中国中西医结合学会 + 中国民族医药学会 + 世界针灸学会联合会 WFAS (国家级 + 国际联会 双重身份); (4) 院校层: 24 所中医药大学 .edu.cn 自动 primary — 中医临床实务 + 经典 + 教材 + 名老中医 学术传承 一手最稠密 入口 (北京中医药大学 BUCM / 上海中医药大学 SHUTCM / 成都中医药大学 / 南京中医药大学 / 广州中医药大学 / 天津中医药大学 等); (5) 国家级研究院: CACMS 中国中医科学院 (国务院直属 + NATCM 业务下属 — 但 .ac.cn 不在 verifier primary_suffix, 必须 surrogate + vendor docs); (6) 期刊 + 文献数据库: PubMed (.gov auto primary) + Cochrane Library (国际 SR 一手 但 .com 需 surrogate) + 中国知网 CNKI + 万方 + 维普 (数据库 全 surrogate) + 中医杂志 / 中国针灸 / 中国中药杂志 等 中文核心期刊 (通过 院校 listing 或 出版社 vendor docs); (7) 三甲中医院 + CACMS 直属六院 (广安门 / 西苑 / 望京 / 眼科 / 针灸 / 中医临床基础医学研究所 — 临床路径 + 名老中医 工作室 + 院内制剂 一手, 但 .com.cn / .com / .ac.cn 不在 primary, 必须 vendor docs (三甲中医院)).
+
+第二, 国际化 是 中医独有的 一手 维度 — WHO 2018 ICD-11 第 26 章 Traditional Medicine Module 把 中医证候 写入 国际疾病分类, 是 中医千年史上 首次 国际监管认可。WHO Traditional Medicine Strategy 2014-2023 + 2025-2034 + WHO benchmarks for training in TCM (who.int / icd.who.int) 是 国际监管 一手 但 .int 不在 verifier primary, 必须 vendor docs (WHO 国际监管)。美国 NCCIH (nccih.nih.gov, .gov auto primary) + NCCAOM (nccaom.org 海外针灸师 国家认证) + 加拿大 BC 省 CTCMA (ctcma.bc.ca) + 澳洲 AHPRA (ahpra.gov.au 中医 全国注册 — 西方国家 首个 中医 国家级监管) + 英国 BCMA / 德国 GP-TCM — 各 海外执照机构域名 多在 .org / .com / .ca / .au, 都 需 surrogate + vendor docs (海外执照监管)。
+
+第三, 严守 zh-CN 黑名单 — 中医 信息生态 比 任何其它行业 都更被 自媒体污染: mp.weixin.qq.com 微信公众号 (中医博主 + 养生 KOL + 名老中医二代传承 + 中药企业营销 + 民间神医 + 玄学风水 混杂主战场) / zhihu.com (中医辩论 + 双方极端立场 主战场) / baike.baidu.com + wenku.baidu.com (二手错误泛滥) / blog.csdn.net + cnblogs + jianshu + juejin.cn / developer.aliyun.com / tencent.cloud.com / douyin.com + kuaishou.com + weibo.com (中医短视频 + 神医 + 养生 错误信息主战场) — 全部 严禁。替代路径: 必须 走 协会 cacm.org.cn / 院校 .edu.cn / NATCM .gov.cn / CACMS / 三甲中医院 / 学术继承人 项目 / 国际期刊 一手。bilibili 仅 院校官方账号 / 协会官方账号 / 三甲中医院官方账号 可 酌情 surrogate_primary + vendor docs (官方 verified 账号), 短视频 神医 + 个人博主 严禁。
+
+第四, 域名预警 — 以下 一类一手 但 verifier auto-classify 为 secondary, 必须 declared=surrogate_primary + note literal 官方白名单关键词: CACMS .ac.cn (国务院直属 但 后缀不在 primary) → vendor docs (CACMS 国务院直属 国家级研究机构 + 监管业务下属 国家中医药管理局); 中国药典委员会 .org.cn (虽 .org.cn 应在 primary 范围 但 verifier 对 chp 不确定) → vendor docs (国家药典委员会 + 监管); 三甲中医院 .com.cn / .com → vendor docs (三甲中医院); WHO .int → vendor docs (WHO 国际监管); Cochrane .com → vendor docs (Cochrane 国际系统评价); 海外执照机构 .org / .ca → vendor docs (海外执照监管); 国际期刊 publisher .com → vendor docs (期刊 publisher); 古籍数据库 ctext.org → vendor docs (古籍数字化). 中国知网 cnki.net 等 数据库 → vendor docs.
+
+第五, 长稿媒体 二手 优先级 — 中国中医药报 (NATCM 直属 国家级中医专业媒体 — 算 secondary 默认, 主题 + NATCM 政策解读独家时 酌情 surrogate) + 健康报 中医专版 (NHC 直属) + 财新 + 澎湃 (中医药 监管动向 + 重大事件 长稿) — 默认 secondary, 仅 在 主题 不可替代时 用。学术继承人 + 国医大师 + 国家级名中医 工作室 资料 入口 主要在 NATCM .gov.cn + 院校 .edu.cn + CACMS, 不另立条目, 通过 上述 渠道 检索。
+
+## Source Manifest
+
+| source_id | url | bucket | last_checked | author/host | one-line note |
+| --- | --- | --- | --- | --- | --- |
+| T05-S001 | https://www.natcm.gov.cn/ | verified_primary | 2026-05-18 | 国家中医药管理局 (NATCM) | 监管主入口, 中医诊所备案 + 中医师资格 + 中医临床路径 + 国家级名老中医工作室 + 古籍数字化 + 中医药法实施 一手公告, 周更 |
+| T05-S002 | https://www.nhc.gov.cn/ | verified_primary | 2026-05-18 | 国家卫生健康委员会 | 官方公告, 综合医院中医科 + 中医执业医师资格 + 卫生行业标准 ZY/T (含 ZY/T 001 中医病案书写规范), 周更 |
+| T05-S003 | https://www.nmpa.gov.cn/ | verified_primary | 2026-05-18 | 国家药品监督管理局 (NMPA) | 监管主入口, 中药注册 + 古代经典名方目录 + 中药注射剂警示通告 (鱼腥草 / 双黄连 / 清开灵 / 喜炎平) + 国家不良反应监测年报, 周更 |
+| T05-S004 | https://www.gov.cn/ | verified_primary | 2026-05-18 | 中华人民共和国中央人民政府 | 官方公告, 国务院 中医药传承创新发展 顶层规划 + 中医药法实施细则 + 三方三药相关国务院文件, 周更 |
+| T05-S005 | https://www.npc.gov.cn/ | verified_primary | 2026-05-18 | 全国人民代表大会 | 官方公告, 中华人民共和国中医药法 (2016 通过 / 2017 实施) + 执业医师法 立法原文与释义, 月更 |
+| T05-S006 | https://flk.npc.gov.cn/ | verified_primary | 2026-05-18 | 国家法律法规数据库 (全国人大常委会) | 监管系统, 中医药法 + 执业医师法 + 药品管理法 + 药典法 现行有效全文权威检索, 实时更新 |
+| T05-S007 | https://www.court.gov.cn/ | verified_primary | 2026-05-18 | 最高人民法院 | 官方公告, 中医医疗损害责任 + 非法行医 (张悟本 / 胡万林 类) + 中医师资格纠纷 指导案例与司法解释, 月更 |
+| T05-S008 | https://wsjkw.beijing.gov.cn/ | verified_primary | 2026-05-18 | 北京市卫生健康委员会 / 北京市中医管理局 | 官方公告, 京 中医诊所备案 + 中医师注册 + 院内制剂 + 师承考核 地方口径, 周更 |
+| T05-S009 | https://wsjkw.sh.gov.cn/ | verified_primary | 2026-05-18 | 上海市卫生健康委员会 / 上海市中医药管理局 | 官方公告, 沪 中医诊所备案 + 三甲中医院管理 + 海派中医 学术传承 地方口径, 周更 |
+| T05-S010 | https://wsjkw.gd.gov.cn/ | verified_primary | 2026-05-18 | 广东省卫生健康委员会 / 广东省中医药局 | 官方公告, 粤 中医强省 + 中医诊所备案 + 中医医联体 + 岭南医学 地方口径, 周更 |
+| T05-S011 | https://www.chp.org.cn/ | surrogate_primary | 2026-05-18 | 中国药典委员会 | 监管系统, 中华人民共和国药典 一部 中药材 + 中成药 + 中药饮片 国家标准 (vendor docs), 五年大版 / 年度增补, 实时更新 [declared=surrogate_primary, auto=secondary; reason=vendor docs (国家药典委员会 + 监管)] |
+| T05-S012 | https://www.cacm.org.cn/ | verified_primary | 2026-05-18 | 中华中医药学会 (CACM) | 行业协会主战场, 团体标准 T/CACM + 中医临床指南 + 中医药学科分会 + 名老中医 工作室 学术成果, 周更 |
+| T05-S013 | https://www.caam.org.cn/ | verified_primary | 2026-05-18 | 中国针灸学会 | 行业协会, 针灸临床指南 + 经络穴位标准 + 针灸技术规范 + 学术年会, 月更 |
+| T05-S014 | https://www.cjim.org.cn/ | verified_primary | 2026-05-18 | 中国中西医结合学会 | 行业协会, 中西医结合临床指南 + 中西医结合分会 (心血管 / 肾内 / 风湿 / 肿瘤 等) + 中西医结合杂志, 月更 |
+| T05-S015 | https://www.cmam.org.cn/ | verified_primary | 2026-05-18 | 中国民族医药学会 | 行业协会, 藏蒙维傣 等 民族医学 边界资料 + 与 中医平行体系 关系, 月更 |
+| T05-S016 | https://www.wfas.org.cn/ | verified_primary | 2026-05-18 | 世界针灸学会联合会 (WFAS) | 行业协会 (国家级 + 国际联会双重), 国际针灸标准 + WHO 协作中心 + 全球针灸经络穴位标准库 + 国际针灸学术大会, 月更 |
+| T05-S017 | https://www.bucm.edu.cn/ | verified_primary | 2026-05-18 | 北京中医药大学 (BUCM) | 院校官网, 教材 + 教研室 + 教师页 + 师承班 + 国医大师 王琦 中医体质学 + 经方派 刘渡舟 胡希恕 传承, 周更 |
+| T05-S018 | https://www.shutcm.edu.cn/ | verified_primary | 2026-05-18 | 上海中医药大学 (SHUTCM) | 院校官网, 教材 + 海派中医 + 附属龙华 / 曙光 / 岳阳 中西医结合 三甲传承 + 中医文献研究所, 周更 |
+| T05-S019 | https://www.cdutcm.edu.cn/ | verified_primary | 2026-05-18 | 成都中医药大学 (CDUTCM) | 院校官网, 教材 + 川派中医 + 中药学优势 + 道地药材研究 + 经方临床传承, 周更 |
+| T05-S020 | https://www.njucm.edu.cn/ | verified_primary | 2026-05-18 | 南京中医药大学 (NJUCM) | 院校官网, 教材 + 黄煌 国际经方学院 + 方证相应 + 孟河医派 传承, 周更 |
+| T05-S021 | https://www.gzucm.edu.cn/ | verified_primary | 2026-05-18 | 广州中医药大学 (GZUCM) | 院校官网, 教材 + 岭南医学 + 邓铁涛 五脏相关 传承 + 附属广东省中医院 全国最大三甲, 周更 |
+| T05-S022 | https://www.tjutcm.edu.cn/ | verified_primary | 2026-05-18 | 天津中医药大学 (TJUTCM) | 院校官网, 教材 + 张伯礼 院士 团队 + 中医脑病 + 石学敏 醒脑开窍 + COVID-19 三方三药 一手, 周更 |
+| T05-S023 | https://www.hljucm.edu.cn/ | verified_primary | 2026-05-18 | 黑龙江中医药大学 | 院校官网, 教材 + 北派中医 + 寒地中医 + 中药资源学 + 附属龙江中医医院 临床路径, 月更 |
+| T05-S024 | https://www.sdutcm.edu.cn/ | verified_primary | 2026-05-18 | 山东中医药大学 | 院校官网, 教材 + 齐鲁医派 + 经方传承 + 中医文献研究所 + 中医内科, 月更 |
+| T05-S025 | https://www.zcmu.edu.cn/ | verified_primary | 2026-05-18 | 浙江中医药大学 | 院校官网, 教材 + 浙派中医 + 何氏内科 + 中药学 + 附属第一医院 中西医结合, 月更 |
+| T05-S026 | https://www.cacms.ac.cn/ | surrogate_primary | 2026-05-18 | 中国中医科学院 (CACMS) | 国家级研究机构主入口, 屠呦呦 青蒿素 + 黄璐琦院士 中药资源学 + 直属六院 (广安门 / 西苑 / 望京 / 眼科 / 针灸 / 临床基础所) 学术成果, 月更 [declared=surrogate_primary, auto=secondary; reason=vendor docs (CACMS 国务院直属 国家级研究机构 + 监管业务下属 国家中医药管理局)] |
+| T05-S027 | https://www.aim.ac.cn/ | surrogate_primary | 2026-05-18 | 中国中医科学院 针灸研究所 | 国家级研究机构, 针灸经络 国家重点实验室 + 针灸临床指南 + 经络实质研究, 月更 [declared=surrogate_primary, auto=secondary; reason=vendor docs (CACMS 国务院直属 国家级研究机构 + 监管业务下属 国家中医药管理局)] |
+| T05-S028 | https://pubmed.ncbi.nlm.nih.gov/ | verified_primary | 2026-05-18 | PubMed (US NLM / NCBI) | 国际医学文献检索, 中医药 + 针灸 + 中草药 RCT / SR / 病例报告 + 马兜铃酸肾病 / 何首乌肝损伤 历史文献 全文索引, 实时更新 |
+| T05-S029 | https://www.cochranelibrary.com/ | surrogate_primary | 2026-05-18 | Cochrane Library (Wiley) | 国际系统评价数据库, 中医药 + 针灸 SR 数百篇 一手 (TCM herbal SR / acupuncture SR) (vendor docs), 季度更新 [declared=surrogate_primary, auto=secondary; reason=vendor docs (Cochrane 国际系统评价)] |
+| T05-S030 | https://www.cnki.net/ | surrogate_primary | 2026-05-18 | 中国知网 CNKI | 中文学术数据库, 中医杂志 / 中华中医药学刊 / 中国中西医结合杂志 / 中国针灸 / 中国中药杂志 / 北京中医药大学学报 / 上海中医药杂志 / 中草药 全文 (vendor docs), 实时更新 [declared=surrogate_primary, auto=secondary; reason=vendor docs] |
+| T05-S031 | https://www.nejm.org/ | surrogate_primary | 2026-05-18 | New England Journal of Medicine | 国际顶级医学期刊, 1993 马兜铃酸肾病 历史一手 + 中医药相关 RCT (vendor docs), 周更 [declared=surrogate_primary, auto=secondary; reason=vendor docs (期刊 publisher)] |
+| T05-S032 | https://www.thelancet.com/ | surrogate_primary | 2026-05-18 | The Lancet (Elsevier) | 国际顶级医学期刊, 中医药 + 针灸 SR + 中药相关肾病 / 肝损伤 临床警示文献 (vendor docs), 周更 [declared=surrogate_primary, auto=secondary; reason=vendor docs (期刊 publisher)] |
+| T05-S033 | https://cmjournal.biomedcentral.com/ | surrogate_primary | 2026-05-18 | Chinese Medicine (BMC) | 国际中医专业开放获取期刊, 中草药 + 针灸 + 中西医结合 OA 一手 (vendor docs), 月更 [declared=surrogate_primary, auto=secondary; reason=vendor docs (期刊 publisher)] |
+| T05-S034 | https://www.gamhospital.ac.cn/ | surrogate_primary | 2026-05-18 | 中国中医科学院 广安门医院 | 三甲中医院 (CACMS 直属), 仝小林 态靶 内分泌 + 中医肿瘤 + 院内制剂 + 临床路径 (vendor docs), 月更 [declared=surrogate_primary, auto=secondary; reason=vendor docs (三甲中医院)] |
+| T05-S035 | https://www.xyhospital.ac.cn/ | surrogate_primary | 2026-05-18 | 中国中医科学院 西苑医院 | 三甲中医院 (CACMS 直属), 陈可冀 中西医结合心血管 + 活血化瘀 + 老年医学 优势 (vendor docs), 月更 [declared=surrogate_primary, auto=secondary; reason=vendor docs (三甲中医院)] |
+| T05-S036 | https://www.bjzhongyi.com/ | surrogate_primary | 2026-05-18 | 首都医科大学附属北京中医医院 | 三甲中医院, 京城四大名医 + 中医皮肤科 / 肿瘤科 / 脾胃病 优势学科 + 临床路径 (vendor docs), 月更 [declared=surrogate_primary, auto=secondary; reason=vendor docs (三甲中医院)] |
+| T05-S037 | https://www.gdhtcm.com/ | surrogate_primary | 2026-05-18 | 广东省中医院 (广州中医药大学第二附属医院) | 三甲中医院, 全国规模最大 中医院 + 岭南医派 + 名医工作室 集群 (vendor docs), 月更 [declared=surrogate_primary, auto=secondary; reason=vendor docs (三甲中医院)] |
+| T05-S038 | https://www.jstcmh.com/ | surrogate_primary | 2026-05-18 | 江苏省中医院 (南京中医药大学附属医院) | 三甲中医院, 孟河医派 + 中医妇科 / 肾病 / 急诊 优势 + 国家中医临床研究基地 (vendor docs), 月更 [declared=surrogate_primary, auto=secondary; reason=vendor docs (三甲中医院)] |
+| T05-S039 | https://www.who.int/ | surrogate_primary | 2026-05-18 | World Health Organization (WHO) | 国际监管, Traditional Medicine Strategy 2014-2023 / 2025-2034 + WHO benchmarks for training in TCM 一手 (vendor docs), 季度更新 [declared=surrogate_primary, auto=secondary; reason=vendor docs (WHO 国际监管)] |
+| T05-S040 | https://icd.who.int/ | surrogate_primary | 2026-05-18 | WHO ICD-11 平台 | 国际监管, ICD-11 第 26 章 Traditional Medicine Module 2018 中医证候 国际疾病分类 (vendor docs), 年度更新 [declared=surrogate_primary, auto=secondary; reason=vendor docs (WHO 国际监管)] |
+| T05-S041 | https://www.nccih.nih.gov/ | verified_primary | 2026-05-18 | NCCIH (US NIH) | 美国国立辅助与整合健康中心, 中医药 + 针灸 + 中草药 政府综述与研究资助 一手, 月更 |
+| T05-S042 | https://www.nccaom.org/ | surrogate_primary | 2026-05-18 | NCCAOM (US) | 海外执照监管, 美国国家针灸与东方医学认证委员会 (NCCAOM) 针灸师 + 草药师 国家认证标准 (vendor docs), 季度更新 [declared=surrogate_primary, auto=secondary; reason=vendor docs (海外执照监管)] |
+| T05-S043 | https://www.ctcma.bc.ca/ | surrogate_primary | 2026-05-18 | CTCMA (BC, Canada) | 海外执照监管, 加拿大 BC 省 中医师与针灸师管理局 (Dr. TCM 头衔权 + 注册标准) (vendor docs), 季度更新 [declared=surrogate_primary, auto=secondary; reason=vendor docs (海外执照监管)] |
+| T05-S044 | https://www.ahpra.gov.au/ | surrogate_primary | 2026-05-18 | AHPRA (Australia) | 海外执照监管, 澳洲 卫生从业者管理局 中医委员会 (西方国家 首个 中医 国家级注册体系) (vendor docs), 季度更新 [declared=surrogate_primary, auto=secondary; reason=vendor docs (海外执照监管)] |
+| T05-S045 | http://www.cntcm.com.cn/ | surrogate_primary | 2026-05-18 | 中国中医药报 (NATCM 直属) | 国家级中医专业媒体 (NATCM 监管下属), 中医药政策解读 + 国医大师专访 + 学术继承人项目报道 长稿 (vendor docs), 日更 [declared=surrogate_primary, auto=secondary; reason=vendor docs (NATCM 监管直属媒体)] |
