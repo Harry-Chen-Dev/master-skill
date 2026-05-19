@@ -4,6 +4,7 @@
   "industry_en": "AI Product Manager — practitioner role at intersection of traditional product management and LLM/generative-AI application engineering: scoping, eval-driven iteration, prompt + RAG + agent design, model selection, cost-quality tradeoffs, multimodal product surfaces",
   "industry_type": "cross_functional_practitioner",
   "slug": "ai-product-manager",
+  "title": "AI 产品",
   "focus": {
     "primary": "operational",
     "secondary": "technical"

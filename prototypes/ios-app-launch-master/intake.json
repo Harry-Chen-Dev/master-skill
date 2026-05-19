@@ -4,6 +4,7 @@
   "industry_en": "iOS App Launch — Apple App Store / App Review / TestFlight / ASO / privacy & compliance / Chinese mainland special handling / multi-region / subscription monetization",
   "industry_type": "platform_specific_practitioner",
   "slug": "ios-app-launch",
+  "title": "iOS 上架",
   "focus": {"primary": "operational", "secondary": "technical"},
   "locale": "global",
   "profile": "practitioner",

@@ -4,6 +4,7 @@
   "industry_en": "China ICP filing",
   "industry_type": "regulatory_compliance_zh_cn",
   "slug": "china-icp-filing",
+  "title": "ICP 备案",
   "focus": {
     "primary": "regulatory",
     "secondary": "operational_workflow"

@@ -4,6 +4,7 @@
   "industry_en": "modern architecture design — practitioner role of architect / designer / studio principal whose unit of production is a designed building (or building-scale intervention), spanning programming, concept, schematic design, design development, construction documents, permitting, and construction administration; covering tools (CAD/BIM/parametric/render/AI), workflows (single-project lifecycle + studio practice), canon (theory + tectonics + history), and current challenges (carbon / AI / China real-estate downturn / parametricism vs critical regionalism / star architecture vs craft)",
   "industry_type": "global_design_discipline",
   "slug": "architecture-design",
+  "title": "建筑设计",
   "focus": {
     "primary": "operational",
     "secondary": "academic"

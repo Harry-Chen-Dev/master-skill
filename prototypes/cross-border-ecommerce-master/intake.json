@@ -2,6 +2,7 @@
   "industry": "cross-border e-commerce operations",
   "industry_cn": "跨境电商运营",
   "slug": "cross-border-ecommerce",
+  "title": "跨境电商",
   "locale": "zh-CN",
   "profile": "practitioner",
   "focus": {"primary": "Amazon EU operations", "secondary": "compliance + ad strategy"},

@@ -4,6 +4,7 @@
   "industry_en": "implant dentistry",
   "industry_type": "global_clinical_discipline",
   "slug": "dentistry-implant",
+  "title": "口腔种植",
   "focus": {
     "primary": "clinical",
     "secondary": "biological_biomechanical"

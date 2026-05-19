@@ -2,6 +2,7 @@
   "industry": "Chinese law practice (commercial / civil / criminal)",
   "industry_cn": "中国法律执业",
   "slug": "china-law",
+  "title": "中国法律",
   "locale": "zh-CN",
   "profile": "practitioner",
   "focus": {"primary": "民商事 + 刑事 + 涉外 综合", "secondary": "中国大陆法语境 + 强监管法律领域"},

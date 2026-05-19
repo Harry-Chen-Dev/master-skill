@@ -4,6 +4,7 @@
   "industry_en": "software architecture — practitioner role of architect / staff+ engineer / tech lead whose unit of production is a *system design*: bounded services, data models, data-flow contracts, integration patterns, deployment topology, fitness functions and architecture decision records; spanning monolith ↔ modular monolith ↔ microservices ↔ event-driven ↔ serverless trade-offs, polyglot persistence, API styles (REST / GraphQL / gRPC / async), front-end architecture (SPA / SSR / micro-frontend / BFF), evolutionary architecture and refactoring of legacy systems",
   "industry_type": "global_engineering_discipline",
   "slug": "software-architecture",
+  "title": "软件架构",
   "focus": {
     "primary": "operational",
     "secondary": "academic"

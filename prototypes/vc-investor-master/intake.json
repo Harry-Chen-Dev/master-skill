@@ -4,6 +4,7 @@
   "industry_en": "Venture Capital — practitioner role of GPs / Partners / Principals / Associates at venture firms making early-stage equity investments: deal sourcing, diligence, valuation + term sheet, post-investment support, exits, plus fund-level activities (LP relations, fundraising, portfolio construction)",
   "industry_type": "high_capital_specialist",
   "slug": "vc-investor",
+  "title": "风险投资",
   "focus": {
     "primary": "business",
     "secondary": "operational"

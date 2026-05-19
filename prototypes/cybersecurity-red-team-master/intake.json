@@ -4,6 +4,7 @@
   "industry_en": "Cybersecurity Red Team",
   "industry_type": "offensive_security_global_en_primary_zh_cn_secondary",
   "slug": "cybersecurity-red-team",
+  "title": "红队渗透",
   "focus": {
     "primary": "operator_tradecraft_engagement_lifecycle",
     "secondary": "frameworks_methodology_legal_ethics"

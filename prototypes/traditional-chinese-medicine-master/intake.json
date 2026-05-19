@@ -4,6 +4,7 @@
   "industry_en": "Traditional Chinese Medicine",
   "industry_type": "clinical_medicine_zh_cn_global",
   "slug": "traditional-chinese-medicine",
+  "title": "中医诊疗",
   "focus": {
     "primary": "clinical_diagnostic_therapeutic",
     "secondary": "classical_theory_pharmacology"

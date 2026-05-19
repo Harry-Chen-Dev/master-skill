@@ -4,6 +4,7 @@
   "industry_en": "Psychotherapy & Counseling — practitioner role of therapists / counselors / clinical psychologists: intake & assessment, case conceptualization, major treatment modalities (CBT and third-wave, psychodynamic, humanistic-existential, family systems, trauma-focused), ethics & risk management, clinical supervision, and private-practice operations",
   "industry_type": "regulated_practitioner",
   "slug": "psychotherapy-counseling",
+  "title": "心理咨询",
   "focus": {
     "primary": "operational",
     "secondary": "business"

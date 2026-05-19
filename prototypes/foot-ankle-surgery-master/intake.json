@@ -2,6 +2,7 @@
   "industry": "foot and ankle surgery",
   "industry_cn": "足踝外科",
   "slug": "foot-ankle-surgery",
+  "title": "足踝外科",
   "locale": "zh-CN",
   "profile": "practitioner",
   "focus": {"primary": "成人足踝慢性病变 + 运动损伤", "secondary": "保守 vs 手术决策 + 强监管医疗领域"},
