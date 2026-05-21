@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎓 大师.skill &nbsp;[![Tweet](https://img.shields.io/badge/share%20on-Twitter%2FX-000000?style=flat-square&logo=x)](https://twitter.com/intent/tweet?text=%E5%A4%A7%E5%B8%88.skill%20%E2%80%94%20%E8%BE%93%E5%85%A5%E8%A1%8C%E4%B8%9A%EF%BC%8C30-60%20%E5%88%86%E9%92%9F%E8%87%AA%E5%8A%A8%E8%92%B8%E9%A6%8F%E5%87%BA%E5%8F%AF%E8%A3%85%E8%BD%BD%E7%9A%84%20Master%20OS%20skill%E3%80%82%E8%A3%85%E5%88%B0%E4%BB%BB%E4%BD%95%20AI%20agent%EF%BC%8C%E4%BB%8E%E9%82%A3%E4%B8%80%E5%88%BB%E8%B5%B7%EF%BC%8C%E5%AE%83%E5%B0%B1%E6%98%AF%E8%BF%99%E4%B8%80%E8%A1%8C%E6%9C%80%E8%B5%84%E6%B7%B1%E7%9A%84%E4%BA%BA%E3%80%82&url=https%3A%2F%2Fgithub.com%2Fvoidborne-d%2Fmaster-skill&hashtags=ClaudeCode%2CAIAgent%2CMasterSkill%2C%E5%BC%80%E6%BA%90)
+# 🎓 大师.skill &nbsp;[![Tweet](https://img.shields.io/badge/share%20on-Twitter%2FX-000000?style=flat-square&logo=x)](https://twitter.com/intent/tweet?text=%E5%A4%A7%E5%B8%88.skill%20%E2%80%94%20%E8%BE%93%E5%85%A5%E8%A1%8C%E4%B8%9A%EF%BC%8C30-60%20%E5%88%86%E9%92%9F%E8%87%AA%E5%8A%A8%E8%92%B8%E9%A6%8F%E5%87%BA%E5%8F%AF%E8%A3%85%E8%BD%BD%E7%9A%84%20Master%20OS%20skill%E3%80%82%E8%A3%85%E5%88%B0%E4%BB%BB%E4%BD%95%20AI%20agent%EF%BC%8C%E4%BB%8E%E9%82%A3%E4%B8%80%E5%88%BB%E8%B5%B7%EF%BC%8C%E5%AE%83%E5%B0%B1%E6%98%AF%E8%BF%99%E4%B8%80%E8%A1%8C%E6%9C%80%E8%B5%84%E6%B7%B1%E7%9A%84%E4%BA%BA%E3%80%82&url=https%3A%2F%2Fgithub.com%2Fswaylq%2Fmaster-skill&hashtags=ClaudeCode%2CAIAgent%2CMasterSkill%2C%E5%BC%80%E6%BA%90)
 
 ### 🌐 官网 [master-skill.org](https://master-skill.org/) — 在线和已蒸馏的行业大师对话
 
@@ -55,7 +55,7 @@
 >
 > 🔥 &nbsp;**2026.05.05 大升级 v1.4** — 以前 agent 说「我用了 86% 一手来源」全靠自己打分，现在每条来源自动跑 URL 验真、16 道质量检验、黑名单（知乎 / 公众号 / G2 等）强拦截，**蒸不出垃圾**。同时多了第 9 个完整行业 — **保险经纪人 / 代理人**。
 >
-> 📢 &nbsp;**2026.05.02 发布** — 生成的 skill 不只能对话，还自带一套 bash 命令工具帮你执行。[Release notes →](https://github.com/voidborne-d/master-skill/releases/tag/v1.1)
+> 📢 &nbsp;**2026.05.02 发布** — 生成的 skill 不只能对话，还自带一套 bash 命令工具帮你执行。[Release notes →](https://github.com/swaylq/master-skill/releases/tag/v1.1)
 >
 > 🔥 &nbsp;**2026.05.02 公开** — 第一个完整行业（LLM agent 基础设施）端到端跑通验证。
 
@@ -237,7 +237,7 @@ $ ./cli/decision/framework-select.sh --explain
 
 ```bash
 # Claude Code
-git clone https://github.com/voidborne-d/master-skill.git ~/.claude/skills/master-skill
+git clone https://github.com/swaylq/master-skill.git ~/.claude/skills/master-skill
 ```
 
 <details>
@@ -246,7 +246,7 @@ git clone https://github.com/voidborne-d/master-skill.git ~/.claude/skills/maste
 <br>
 
 ```bash
-git clone https://github.com/voidborne-d/master-skill.git <TARGET>
+git clone https://github.com/swaylq/master-skill.git <TARGET>
 ```
 
 | Host | `<TARGET>` 路径 |
@@ -481,7 +481,7 @@ MIT — 随便用，随便改，随便造。
 
 <br>
 
-MIT License © [voidborne-d](https://github.com/voidborne-d) · 中文 README · [English](README_en.md)
+MIT License © [swaylq](https://github.com/swaylq) · 中文 README · [English](README_en.md)
 
 </div>
 
@@ -489,10 +489,10 @@ MIT License © [voidborne-d](https://github.com/voidborne-d) · 中文 README ·
 
 ## ⭐ Star History
 
-<a href="https://www.star-history.com/?repos=voidborne-d%2Fmaster-skill&type=date">
+<a href="https://www.star-history.com/?repos=swaylq%2Fmaster-skill&type=date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=voidborne-d/master-skill&type=date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=voidborne-d/master-skill&type=date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=voidborne-d/master-skill&type=date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=swaylq/master-skill&type=date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=swaylq/master-skill&type=date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=swaylq/master-skill&type=date" />
  </picture>
 </a>

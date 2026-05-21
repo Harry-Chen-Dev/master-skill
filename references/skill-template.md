@@ -343,7 +343,7 @@ generator: "master-skill v{{X.Y}}"
 
 ## 致谢
 
-本 skill 由 [大师.skill](https://github.com/voidborne-d/master-skill) 自动生成。
+本 skill 由 [大师.skill](https://github.com/swaylq/master-skill) 自动生成。
 > 蒸馏一个细分行业，让 agent 立刻进入「这行的资深人」模式。
 
 底层方法论参考：

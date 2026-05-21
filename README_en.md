@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎓 master-skill &nbsp;[![Tweet](https://img.shields.io/badge/share%20on-Twitter%2FX-000000?style=flat-square&logo=x)](https://twitter.com/intent/tweet?text=master-skill%20%E2%80%94%20give%20it%20an%20industry%2C%2030-60%20min%20later%20it%20auto-distills%20a%20loadable%20Master%20OS%20skill.%20Plug%20into%20any%20AI%20agent%2C%20instantly%20become%20%22the%20senior%20practitioner%20of%20that%20field.%22&url=https%3A%2F%2Fgithub.com%2Fvoidborne-d%2Fmaster-skill&hashtags=ClaudeCode%2CAIAgent%2CMasterSkill%2COpenSource)
+# 🎓 master-skill &nbsp;[![Tweet](https://img.shields.io/badge/share%20on-Twitter%2FX-000000?style=flat-square&logo=x)](https://twitter.com/intent/tweet?text=master-skill%20%E2%80%94%20give%20it%20an%20industry%2C%2030-60%20min%20later%20it%20auto-distills%20a%20loadable%20Master%20OS%20skill.%20Plug%20into%20any%20AI%20agent%2C%20instantly%20become%20%22the%20senior%20practitioner%20of%20that%20field.%22&url=https%3A%2F%2Fgithub.com%2Fswaylq%2Fmaster-skill&hashtags=ClaudeCode%2CAIAgent%2CMasterSkill%2COpenSource)
 
 > *"Next step — don't just distill a person. Distill an entire industry."*
 
@@ -52,7 +52,7 @@ Drop into any AI agent — from that moment on,<br>
 >
 > 🔥 &nbsp;**2026.05.05 — v1.4 quality upgrade** — before, when an agent claimed "86% of my sources are first-hand," it was self-grading on the honor system. Now every URL is auto-classified, every skill must clear 16 quality checks, and known content farms (Zhihu / WeChat blogs / G2 / Capterra etc.) are hard-blocked at intake. **You can't distill garbage anymore.** Plus a 9th end-to-end industry — **insurance brokers / agents (China)**.
 >
-> 📢 &nbsp;**2026.05.02 release** — generated skills don't just talk; they ship with a bash command suite. [Release notes →](https://github.com/voidborne-d/master-skill/releases/tag/v1.1)
+> 📢 &nbsp;**2026.05.02 release** — generated skills don't just talk; they ship with a bash command suite. [Release notes →](https://github.com/swaylq/master-skill/releases/tag/v1.1)
 >
 > 🔥 &nbsp;**2026.05.02 public** — first complete industry (LLM agent infrastructure) verified end-to-end.
 
@@ -238,7 +238,7 @@ Every skill explicitly states what it can't do:
 
 ```bash
 # Claude Code
-git clone https://github.com/voidborne-d/master-skill.git ~/.claude/skills/master-skill
+git clone https://github.com/swaylq/master-skill.git ~/.claude/skills/master-skill
 ```
 
 <details>
@@ -247,7 +247,7 @@ git clone https://github.com/voidborne-d/master-skill.git ~/.claude/skills/maste
 <br>
 
 ```bash
-git clone https://github.com/voidborne-d/master-skill.git <TARGET>
+git clone https://github.com/swaylq/master-skill.git <TARGET>
 ```
 
 | Host | `<TARGET>` path |
@@ -482,7 +482,7 @@ MIT — use it, fork it, ship with it.
 
 <br>
 
-MIT License © [voidborne-d](https://github.com/voidborne-d) · [中文 README](README.md) · English README
+MIT License © [swaylq](https://github.com/swaylq) · [中文 README](README.md) · English README
 
 </div>
 
@@ -490,10 +490,10 @@ MIT License © [voidborne-d](https://github.com/voidborne-d) · [中文 README](
 
 ## ⭐ Star History
 
-<a href="https://www.star-history.com/?repos=voidborne-d%2Fmaster-skill&type=date">
+<a href="https://www.star-history.com/?repos=swaylq%2Fmaster-skill&type=date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=voidborne-d/master-skill&type=date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=voidborne-d/master-skill&type=date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=voidborne-d/master-skill&type=date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=swaylq/master-skill&type=date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=swaylq/master-skill&type=date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=swaylq/master-skill&type=date" />
  </picture>
 </a>
