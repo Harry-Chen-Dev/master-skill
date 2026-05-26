@@ -1,0 +1,49 @@
+{
+  "name": "education-saas-master",
+  "industry": "Education SaaS",
+  "industry_cn": "教育SaaS",
+  "triggers": [
+    "教育SaaS",
+    "education saas",
+    "招生管理系统",
+    "排课系统",
+    "在线教室",
+    "校园数字化",
+    "教务ERP",
+    "学习管理系统",
+    "LMS",
+    "edtech saas",
+    "education platform",
+    "classroom management software",
+    "student information system",
+    "SIS",
+    "enrollment management"
+  ],
+  "locale": "global",
+  "profile": "practitioner",
+  "focus": "comprehensive",
+  "last_research_date": "2026-05-26",
+  "source_count": 104,
+  "primary_source_ratio": 0.8558,
+  "tracks_covered": [
+    "figures",
+    "tools",
+    "workflows",
+    "canon",
+    "sources",
+    "glossary"
+  ],
+  "mental_models_count": 7,
+  "playbook_rules_count": 10,
+  "research_dimensions_count": 7,
+  "sub_skills": [],
+  "generator": "master-skill v1.3",
+  "version": "1.3",
+  "changelog": [
+    {
+      "version": "1.3",
+      "date": "2026-05-26",
+      "what": "Initial generation"
+    }
+  ]
+}
