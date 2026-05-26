@@ -1,0 +1,57 @@
+{
+  "name": "youth-coding-education-master",
+  "industry": "Youth Coding Education",
+  "industry_cn": "青少年编程教育",
+  "triggers": [
+    "少儿编程",
+    "青少年编程",
+    "编程教育",
+    "编程启蒙",
+    "Scratch教学",
+    "Python入门",
+    "信息学奥赛",
+    "信奥赛",
+    "NOIP",
+    "NOI",
+    "机器人教育",
+    "STEAM教育",
+    "创客教育",
+    "计算思维",
+    "编程培训",
+    "youth coding",
+    "kids coding",
+    "CS education K12",
+    "coding for kids",
+    "computational thinking",
+    "robotics education",
+    "scratch programming",
+    "block-based programming"
+  ],
+  "locale": "global",
+  "profile": "practitioner",
+  "focus": "comprehensive",
+  "last_research_date": "2026-05-26",
+  "source_count": 155,
+  "primary_source_ratio": 0.9677,
+  "tracks_covered": [
+    "figures",
+    "tools",
+    "workflows",
+    "canon",
+    "sources",
+    "glossary"
+  ],
+  "mental_models_count": 7,
+  "playbook_rules_count": 10,
+  "research_dimensions_count": 7,
+  "sub_skills": [],
+  "generator": "master-skill v1.3",
+  "version": "1.3",
+  "changelog": [
+    {
+      "version": "1.3",
+      "date": "2026-05-26",
+      "what": "Initial generation"
+    }
+  ]
+}
