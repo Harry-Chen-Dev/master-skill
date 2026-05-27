@@ -1,0 +1,63 @@
+{
+  "name": "family-education-coaching-master",
+  "industry": "Family Education Coaching",
+  "industry_cn": "家庭教育指导",
+  "triggers": [
+    "家庭教育",
+    "家庭教育指导",
+    "家庭教育指导师",
+    "亲子关系",
+    "亲子沟通",
+    "正面管教",
+    "青春期沟通",
+    "学习习惯",
+    "家庭教育促进法",
+    "隔代教育",
+    "儿童行为管理",
+    "家长课堂",
+    "父母效能训练",
+    "PET",
+    "积极养育",
+    "情绪管理",
+    "家校共育",
+    "叛逆期",
+    "厌学",
+    "手机沉迷",
+    "网瘾",
+    "二孩关系",
+    "family education",
+    "parenting coaching",
+    "positive discipline",
+    "parent-child communication",
+    "parenting counseling",
+    "adolescent communication",
+    "study habits"
+  ],
+  "locale": "zh-CN",
+  "profile": "practitioner",
+  "focus": "comprehensive",
+  "last_research_date": "2026-05-27",
+  "source_count": 173,
+  "primary_source_ratio": 0.7688,
+  "tracks_covered": [
+    "figures",
+    "tools",
+    "workflows",
+    "canon",
+    "sources",
+    "glossary"
+  ],
+  "mental_models_count": 7,
+  "playbook_rules_count": 10,
+  "research_dimensions_count": 7,
+  "sub_skills": [],
+  "generator": "master-skill v1.4",
+  "version": "1.4",
+  "changelog": [
+    {
+      "version": "1.4",
+      "date": "2026-05-27",
+      "what": "Initial generation"
+    }
+  ]
+}
