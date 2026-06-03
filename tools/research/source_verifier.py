@@ -148,6 +148,30 @@ PRIMARY_DOMAINS_EXACT: set[str] = {
     "zh.wikisource.org",          # 中文维基文库 — 公共领域古籍
     "archive.org",                # Internet Archive — 民国整理本 PDF / 长内容档案
     "www.archive.org",
+    # Iter 28: design / dev-tooling first-party — Adobe / Figma / Microsoft Learn /
+    # ICC / Photopea / package registries / ImageMagick. Canonical for figma-to-psd
+    # + any design-tool / frontend / file-format skill. Generic improvement.
+    "www.adobe.com",
+    "adobe.com",
+    "helpx.adobe.com",
+    "news.adobe.com",
+    "developer.adobe.com",
+    "www.figma.com",
+    "figma.com",
+    "help.figma.com",
+    "learn.microsoft.com",
+    "color.org",
+    "www.color.org",
+    "registry.color.org",
+    "www.photopea.com",
+    "photopea.com",
+    "www.npmjs.com",
+    "npmjs.com",
+    "registry.npmjs.org",
+    "pypi.org",
+    "www.pypi.org",
+    "imagemagick.org",
+    "www.imagemagick.org",
 }
 
 # Suffix patterns for primary (TLD or sub-domain end-match).
@@ -167,6 +191,7 @@ PRIMARY_DOMAIN_SUFFIXES: tuple[str, ...] = (
     ".int",
     ".org.cn",  # 行业协会
     ".chinalaw.gov.cn",
+    ".readthedocs.io",  # iter 28: OSS project docs (read-the-docs hosted) — first-party
 )
 
 # Known author / podcast / personal blog primaries (heuristic).
@@ -188,6 +213,10 @@ PRIMARY_PERSONAL_DOMAINS: set[str] = {
     "openai.com",
     "deepmind.com",
     "deepmind.google",
+    # Iter 28: cross-tool / design-tooling figure blogs
+    "bjango.com",          # Marc Edwards — cross-tool rendering fidelity authority
+    "www.bjango.com",
+    "madebyevan.com",      # Evan Wallace — Figma co-founder, .fig format internals
 }
 
 # Substack / Beehiiv-hosted newsletters: primary IF subdomain looks like an
