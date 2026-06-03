@@ -192,6 +192,17 @@ PRIMARY_DOMAIN_SUFFIXES: tuple[str, ...] = (
     ".org.cn",  # 行业协会
     ".chinalaw.gov.cn",
     ".readthedocs.io",  # iter 28: OSS project docs (read-the-docs hosted) — first-party
+    # iter 29 (study-camp-education): experiential-ed / camp / outdoor-ed standard
+    # bodies, method originators, nonprofit canonical platforms, national gov edu
+    # platform — genuine first-hand authorities (not commercial vendor marketing).
+    ".acacamps.org",      # American Camp Association — 营地认证标准机构
+    ".lnt.org",           # Leave No Trace — 户外无痕原则标准机构
+    ".pblworks.org",      # PBLWorks / Buck Institute — Gold Standard PBL 方法 originator
+    ".outwardbound.net",  # Outward Bound — 外展 / 体验教育运动 org
+    ".icfconnect.net",    # International Camping Fellowship — 国际营地组织
+    ".cceacamps.org",     # 中国营地教育联盟 CCEA — 全国行业联盟（.org，非 .org.cn）
+    ".inaturalist.org",   # iNaturalist — 公益公民科学平台（自然教育工具一手）
+    ".smartedu.cn",       # 国家智慧教育公共服务平台（教育部国家级平台）
 )
 
 # Known author / podcast / personal blog primaries (heuristic).
