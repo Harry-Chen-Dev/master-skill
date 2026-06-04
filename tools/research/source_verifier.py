@@ -198,6 +198,38 @@ PRIMARY_DOMAINS_EXACT: set[str] = {
     "www.enlightent.cn", "enlightent.cn",# 艺恩数据
     "www.diandian.com", "diandian.com",  # 点点数据 (出海)
     "www.newrank.cn", "newrank.cn",      # 新榜
+    # Iter 31 (personal-investing): finance/investing first-party authorities —
+    # fund companies whose investor-education + research IS the canon (Vanguard =
+    # Bogle's firm), the Berkshire letters (Buffett/Munger primary source), the
+    # de-facto passive-investing canon (Bogleheads wiki), canonical data/ratings
+    # providers (Morningstar), SRO + professional standards bodies (FINRA / CFA),
+    # factor-research first-party (AQR), the finance working-paper archive (SSRN =
+    # arXiv-equivalent for finance), authoritative fund manager memos (Oaktree =
+    # Howard Marks), and the Fed economic-data archive. Generic for any future
+    # investing / personal-finance / asset-allocation skill.
+    "www.berkshirehathaway.com", "berkshirehathaway.com",  # Buffett/Munger 股东信 — 一手
+    "www.vanguard.com", "vanguard.com", "investor.vanguard.com", "corporate.vanguard.com",
+    "www.fidelity.com", "fidelity.com",
+    "www.schwab.com", "schwab.com",
+    "www.interactivebrokers.com", "interactivebrokers.com", "ibkr.com",
+    "www.morningstar.com", "morningstar.com",      # 基金数据/评级 — canonical
+    "www.bogleheads.org", "bogleheads.org",         # Bogleheads wiki — 被动投资正典
+    "www.finra.org", "finra.org",                   # SRO 监管 — 投资者保护权威
+    "www.cfainstitute.org", "cfainstitute.org",     # CFA Institute — 专业标准机构
+    "www.aqr.com", "aqr.com",                       # AQR — 因子研究一手 (Asness)
+    "papers.ssrn.com", "ssrn.com", "www.ssrn.com",  # SSRN — 金融工作论文档案
+    "www.oaktreecapital.com", "oaktreecapital.com", # Oaktree — Howard Marks memos
+    "fred.stlouisfed.org",                          # FRED — 美联储经济数据档案
+    "www.spglobal.com", "spglobal.com",             # S&P DJI / SPIVA — 主动vs被动权威记分卡(官方一手), 同 Morningstar 级数据机构
+    # Iter 32 (speech-to-text): official cloud + ASR vendor docs. cloud.google /
+    # azure / aws docs are first-party canon for ANY cloud/tech skill; Deepgram /
+    # AssemblyAI are canonical ASR API docs; k2-fsa = sherpa-onnx/k2 project docs.
+    "deepgram.com", "www.deepgram.com",
+    "assemblyai.com", "www.assemblyai.com",
+    "cloud.google.com",
+    "azure.microsoft.com",
+    "aws.amazon.com", "docs.aws.amazon.com",
+    "k2-fsa.github.io",
 }
 
 # Suffix patterns for primary (TLD or sub-domain end-match).
@@ -254,6 +286,20 @@ PRIMARY_PERSONAL_DOMAINS: set[str] = {
     "bjango.com",          # Marc Edwards — cross-tool rendering fidelity authority
     "www.bjango.com",
     "madebyevan.com",      # Evan Wallace — Figma co-founder, .fig format internals
+    # Iter 31 (personal-investing): investing figure first-party blogs / podcasts —
+    # the authors' OWN sites where their thinking lives long-form. Generic for any
+    # future personal-finance / investing skill.
+    "rationalreminder.ca", "www.rationalreminder.ca",   # Ben Felix / PWL — 被动+因子证据派
+    "jlcollinsnh.com", "www.jlcollinsnh.com",           # JL Collins — Simple Path to Wealth
+    "collaborativefund.com", "www.collaborativefund.com",  # Morgan Housel essays
+    "ofdollarsanddata.com", "www.ofdollarsanddata.com",  # Nick Maggiulli
+    "awealthofcommonsense.com", "www.awealthofcommonsense.com",  # Ben Carlson
+    "ritholtz.com", "www.ritholtz.com",                  # Barry Ritholtz
+    "humbledollar.com", "www.humbledollar.com",          # Jonathan Clements
+    "abnormalreturns.com", "www.abnormalreturns.com",    # Tadas Viskanta
+    "jasonzweig.com", "www.jasonzweig.com",              # Jason Zweig (WSJ Intelligent Investor)
+    "earlyretirementnow.com", "www.earlyretirementnow.com",  # ERN — SWR series 权威
+    "www.mrmoneymustache.com", "mrmoneymustache.com",    # MMM — FIRE
 }
 
 # Substack / Beehiiv-hosted newsletters: primary IF subdomain looks like an
