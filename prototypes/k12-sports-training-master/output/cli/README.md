@@ -1,0 +1,54 @@
+# K12 体育培训 CLI
+
+把 K12 体育培训 master skill 的认知 OS 物化成 bash 工具。
+不替代 SKILL.md（思维顾问），是它的「执行端」：交互问询 → 应用 playbook / protocol → 输出结构化报告。
+
+## 用法
+
+所有脚本支持 `--help` / `--explain` / `--dry-run` / `--json` 四个标准 flag。
+
+```bash
+# 拿到新问题时, 按 N 个研究维度做功课
+./protocol/agentic.sh
+
+# 决策树评估 (基于 playbook)
+./decision/topic-1.sh
+# SOP 走查 (workflow)
+./workflow/sop.sh
+
+# 看背后的心智模型 / playbook (不交互)
+./protocol/agentic.sh --explain
+```
+
+## 脚本清单
+
+| 脚本 | 作用 |
+|------|------|
+| `protocol/agentic.sh` | Agentic Protocol (6 维度) — 拿到新问题时按这一行的研究维度做功课 |
+| `decision/topic-1.sh` | 续费 决策树 (4 条规则) |
+| `decision/topic-2.sh` | 业态 决策树 (1 条规则) |
+| `decision/general-playbook.sh` | 通用 Playbook 决策树 (3 条规则) |
+| `workflow/sop.sh` | 招生获客 SOP（地推/社群/异业 → 邀约试听 → 试听课转化 → 报名） SOP 走查 |
+| `workflow/sop.sh` | 教学交付 SOP（分龄分级编班 → 课程体系排课 → 教案执行 → 体测前测/后测 → 成果可视化给家长） SOP 走查 |
+| `workflow/sop.sh` | 中考体育备考 SOP（考纲拆解 → 基线体测 → 个性化提分计划 → 周期化训练 → 模拟测/考前冲刺） SOP 走查 |
+| `workflow/sop.sh` | 续费/转介绍 SOP（课消管理 → 续费节点设计 → 家长满意度 → 转介绍裂变） SOP 走查 |
+| `workflow/sop.sh` | 开店/单店跑通 SOP（选址 → 单店模型测算 → 筹备开业 → 满班爬坡） SOP 走查 |
+| `workflow/sop.sh` | 师资培养 SOP（招聘 → 教练认证/带教 → 课程标准化复制） SOP 走查 |
+
+## 设计与生成
+
+CLI 子树由 `tools/cli_writer.py` 自动从 `references/synthesis.md` (Section 2 Playbook + Section 9 Agentic Protocol) 和 `references/research/03-workflows.md` 生成。
+
+完整 spec 在 master-skill 仓库 `references/cli-spec.md`。
+
+## 重新生成
+
+如果 synthesis.md 或 03-workflows.md 更新了, 重跑:
+
+```bash
+python3 <master-skill>/tools/cli_writer.py emit \
+  --skill-dir <this-skill-dir> \
+  --synthesis references/synthesis.md \
+  --workflows references/research/03-workflows.md \
+  --industry-cn "K12 体育培训"
+```
