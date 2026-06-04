@@ -172,6 +172,32 @@ PRIMARY_DOMAINS_EXACT: set[str] = {
     "www.pypi.org",
     "imagemagick.org",
     "www.imagemagick.org",
+    # Iter 30 (ai-short-drama): AIGC video/model vendor official sites + zh-CN
+    # content-industry data platforms + platform/studio/festival official — these
+    # ARE the subject/canon of AI 短剧 (parallel to figma-to-psd allowlisting
+    # Adobe/Figma). Generic for any AIGC-video / content-ops / 出海 skill.
+    "kling.ai", "www.kling.ai",          # 可灵 (快手)
+    "jimeng.jianying.com",                # 即梦 (字节)
+    "vidu.cn", "www.vidu.cn",            # Vidu (生数)
+    "minimaxi.com", "www.minimaxi.com",  # MiniMax
+    "hailuoai.com", "hailuoai.video",    # 海螺 AI
+    "volcengine.com", "www.volcengine.com",  # 火山引擎 (字节; 即梦/豆包)
+    "tongyi.aliyun.com",                  # 通义 (阿里)
+    "www.aliyun.com", "aliyun.com",      # 阿里云官方文档 (百炼/通义)
+    "chatglm.cn",                         # 智谱清影
+    "heygen.com", "www.heygen.com",      # HeyGen 对口型
+    "pixverse.ai", "www.pixverse.ai",    # PixVerse
+    "lumalabs.ai",                        # Luma
+    "fal.ai",                             # fal
+    "capcut.cn", "www.capcut.cn",        # 剪映 / CapCut
+    "ir.kuaishou.com",                    # 快手投资者关系 (官方披露)
+    "m.yangshipin.cn", "yangshipin.cn", "www.yangshipin.cn",  # 央视频 (平台官方)
+    "bonafilm.cn", "www.bonafilm.cn",    # 博纳影业 (出品方官方)
+    "www.bjiff.com", "bjiff.com",        # 北京国际电影节 (官方)
+    "www.dataeye.com", "dataeye.com",    # DataEye 短剧数据
+    "www.enlightent.cn", "enlightent.cn",# 艺恩数据
+    "www.diandian.com", "diandian.com",  # 点点数据 (出海)
+    "www.newrank.cn", "newrank.cn",      # 新榜
 }
 
 # Suffix patterns for primary (TLD or sub-domain end-match).
@@ -502,6 +528,17 @@ def classify_url(url: str, locale: str = "all") -> tuple[str, str]:
         if seg and (seg[0] in ("c", "channel", "user") or seg[0].startswith("@")):
             return VerifiedPrimary, f"youtube channel root: /{seg[0]}"
         return Reference, "youtube generic page"
+
+    # 9.5) Bilibili (zh-CN creator video platform). iter30: a creator's space or
+    # uploaded video/column is first-party creator content (parallel to a youtube
+    # channel) — primary for "what this creator said/made"; other pages reference.
+    if host in ("www.bilibili.com", "bilibili.com", "m.bilibili.com", "space.bilibili.com"):
+        if host == "space.bilibili.com":
+            return VerifiedPrimary, "bilibili creator space"
+        seg = [s for s in path.strip("/").split("/") if s]
+        if seg and seg[0].lower() in ("video", "read", "opus", "medialist"):
+            return VerifiedPrimary, "bilibili creator content"
+        return Reference, "bilibili generic page"
 
     # 10) Content-publishing path on an unknown domain.
     # Conservative rule (iter 25 — codex P0 audit): only paths that are
