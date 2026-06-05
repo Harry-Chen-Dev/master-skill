@@ -300,6 +300,16 @@ PRIMARY_PERSONAL_DOMAINS: set[str] = {
     "jasonzweig.com", "www.jasonzweig.com",              # Jason Zweig (WSJ Intelligent Investor)
     "earlyretirementnow.com", "www.earlyretirementnow.com",  # ERN — SWR series 权威
     "www.mrmoneymustache.com", "mrmoneymustache.com",    # MMM — FIRE
+    # Iter 33 (poker-strategy): poker figures' OWN long-form sites — the
+    # author/figure speaking for themselves (parallel to lexfridman.com /
+    # karpathy.ai already above). Genuine first-hand, not vendor marketing.
+    # Generic for any future poker / competitive-games skill.
+    "www.tommyangelo.com", "tommyangelo.com",            # Tommy Angelo — Elements of Poker / tilt
+    "jaredtendler.com", "www.jaredtendler.com",          # Jared Tendler — Mental Game of Poker
+    "www.thinkingpoker.net", "thinkingpoker.net",        # Andrew Brokos — Thinking Poker / Play Optimal Poker
+    "www.philgalfond.com", "philgalfond.com",            # Phil Galfond — Run It Once founder, 个人长文
+    "noambrown.github.io",                                # Noam Brown — Libratus/Pluribus 作者学术主页
+    "jonathanlittlepoker.com", "www.jonathanlittlepoker.com",  # Jonathan Little — PokerCoaching 创始人
 }
 
 # Substack / Beehiiv-hosted newsletters: primary IF subdomain looks like an
