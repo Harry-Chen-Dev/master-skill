@@ -1,0 +1,35 @@
+# RSS feed seeds for ubnt-wifi-master Phase 1 Wave 0
+# Format: one URL per line. Used by tools/collectors/rss_collect.py
+# Curated for UBNT/UniFi-centric enterprise Wi-Fi engineering.
+
+# === UBNT-centric YouTube creators (RSS via channel feed) ===
+# Crosstalk Solutions (Chris Sherwood) — #1 UniFi-focused channel
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA
+# Willie Howe Technology — UBNT/UniFi tutorials
+https://www.youtube.com/feeds/videos.xml?user=howewillie
+# Lawrence Systems — UniFi + pfSense + enterprise networking
+https://www.youtube.com/feeds/videos.xml?channel_id=UCHkYOD-3fZbuGhwsADBd9ZQ
+# Tom Lawrence backup query
+https://www.youtube.com/feeds/videos.xml?user=lawrencesystems
+# Vendor-neutral CWNE content for canon comparison
+# Revolution Wi-Fi (Andrew von Nagy)
+https://www.revolutionwifi.net/feed
+# WLAN Pros (Keith Parsons)
+https://www.wlanpros.com/feed/
+# Devin Akin — Wi-Fi Vitae / Divergent Dynamics
+https://divergentdynamics.com/feed/
+
+# === Reddit communities ===
+https://www.reddit.com/r/Ubiquiti/.rss
+https://www.reddit.com/r/UNIFI/.rss
+https://www.reddit.com/r/UBNT/.rss
+https://www.reddit.com/r/HomeNetworking/top.rss?t=year
+https://www.reddit.com/r/networking/top.rss?t=year
+
+# === Ubiquiti official ===
+https://www.ui.com/blog/feed
+https://blog.ui.com/feed
+
+# === General Wi-Fi engineering blogs ===
+https://www.networkcomputing.com/rss/wireless-infrastructure
+https://www.smallnetbuilder.com/feed/

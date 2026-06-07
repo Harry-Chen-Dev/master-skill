@@ -1,0 +1,60 @@
+{
+  "industry": "UniFi/UBNT Enterprise Wi-Fi Engineering",
+  "industry_cn": "UBNT/UniFi 企业 Wi-Fi 工程",
+  "industry_en": "UniFi/UBNT Enterprise Wi-Fi Engineering",
+  "title": "UBNT WiFi 工程",
+  "slug": "ubnt-wifi",
+  "focus": { "primary": "operational", "secondary": "technical" },
+  "locale": "global",
+  "profile": "practitioner",
+  "local_materials": {
+    "mode": "none",
+    "paths": [],
+    "covered_tracks": []
+  },
+  "existing_skill": {
+    "found": false,
+    "path": null,
+    "last_research_date": null,
+    "decision": "new"
+  },
+  "vendor_focus": {
+    "primary": "Ubiquiti UniFi",
+    "comparison_anchors": ["Cisco Meraki", "Aruba Instant On", "TP-Link Omada", "Mist (Juniper)", "Ruijie Reyee"],
+    "rationale": "User explicitly chose UBNT/UniFi as the primary deployment platform; other enterprise SMB-Wi-Fi vendors serve as comparison points for trade-off decisions."
+  },
+  "scenario_anchor": {
+    "description": "80-person dense office, current Wi-Fi connection quality reported as poor",
+    "use_for_phase_4_sanity_test": true,
+    "expected_diagnosis_dimensions": [
+      "AP count vs floor area + user density",
+      "AP placement (ceiling vs wall, line-of-sight)",
+      "channel plan (5GHz/6GHz vs 2.4GHz overlap)",
+      "transmit power tuning (too high → co-channel interference)",
+      "band steering / min RSSI / fast roaming settings",
+      "uplink (PoE switch capacity, uplink bandwidth)",
+      "client capabilities (legacy 2.4GHz-only devices)",
+      "neighboring AP / external RF interference"
+    ]
+  },
+  "warnings": [
+    "locale=global but UBNT community is English-dominant (YouTube + Reddit + Ubiquiti Community forum); zh-CN secondary sources will be thinner.",
+    "Wi-Fi engineering canon (CWNA Sybex, 802.11 standards books) is English; user must accept English source preponderance."
+  ],
+  "triggers": [
+    "造大师 UBNT Wi-Fi",
+    "UBNT WiFi 工程",
+    "UniFi 高密度部署",
+    "我做企业 Wi-Fi",
+    "80 人办公网慢",
+    "AP 优化",
+    "UniFi 信道规划",
+    "UBNT 选型",
+    "Crosstalk Solutions",
+    "von Nagy 容量优先",
+    "Devin Akin AIOps",
+    "Wi-Fi 6 6E 7 选哪个",
+    "CWNA 还是 UEWA",
+    "更新大师 ubnt-wifi"
+  ]
+}

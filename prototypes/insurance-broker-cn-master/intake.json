@@ -1,0 +1,30 @@
+{
+  "industry": "中国保险经纪人 / 保险代理人 (从业者视角) — covering 寿险/年金/重疾/医疗/家财/责任 险种家族, 销售-顾问-售后三段流程, 经纪人 vs 代理人体制差异, 客户最佳利益方法论 (江立辉「保单体检 4 维度」), 高客方案设计 (谷主吕志远「监管驱动 + 跨同业核对 + 客户教育」), 平安代理人体系销售方法 (叶云燕「主动筛客 + 极致服务 + 团队复制」), 银保监监管规则与销售误导边界, 经纪渠道 (明亚 / 大童 / 永达理 / 泛华 / 唐凌) 内部生态, 续期 / 退保 / 理赔 / 投诉信号识别, 反销售误导. 含中国大陆监管语境 (原 CBIRC / 现 NFRA), 主战场内容平台 = 「保险不保险」 podcast + 微信公众号 + 视频号 + 知乎 + 行业群. 不含: 全球保险精算理论 / 保险公司核保流程视角 / 投连险与基金代销 (虽相关).",
+  "industry_cn": "保险经纪人 / 保险代理人",
+  "industry_en": "Insurance Broker / Agent (China)",
+  "industry_type": "zh-CN regulated practitioner role",
+  "slug": "insurance-broker-cn",
+  "title": "保险经纪人",
+  "focus": "comprehensive",
+  "locale": "zh-CN",
+  "profile": "practitioner",
+  "skip_sub_skills": false,
+  "triggers": [
+    "保险经纪人",
+    "保险代理人",
+    "保单方案设计",
+    "保险经纪 master",
+    "中国保险 broker",
+    "insurance broker",
+    "保单体检",
+    "重疾险",
+    "年金险",
+    "寿险方案",
+    "江立辉",
+    "叶云燕",
+    "谷主吕志远",
+    "明亚",
+    "大童",
+    "永达理"
+  ]
+}

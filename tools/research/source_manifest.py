@@ -211,6 +211,21 @@ SURROGATE_NOTE_KEYWORDS: tuple[str, ...] = (
     "user-provided", "user provided", "用户提供", "internal", "内部",
     "anonymized", "匿名",
     "私 podcast",
+    # Professional certification / standards bodies publishing their own
+    # syllabus, exam format, or method (e.g. WSET / Court of Master Sommeliers /
+    # Institute of Masters of Wine / GuildSomm / CSW). First-hand for the
+    # standard they originate; recurs in every licensed/certified profession.
+    "certification body", "cert body", "认证机构",
+    # Named critic / recognized authority's own publication or site (e.g.
+    # jancisrobinson.com / Vinous / Tim Atkin / wineanorak). First-hand authored
+    # content; the text equivalent of the existing "私 podcast" type.
+    "critic own publication", "own publication", "own site", "自有博客",
+    # Originator of a method / tool / dataset publishing about it (e.g. the
+    # Wine Aroma Wheel official site, the Liv-ex index pages).
+    "originator",
+    # Recognized education-content vendor's own first-party material (e.g.
+    # Wine Folly). Consistent with the existing "vendor docs" / "supplier" type.
+    "education vendor",
 )
 
 
@@ -289,7 +304,8 @@ def check_bucket_consistency(rows: list[ManifestRow]) -> list[Mismatch]:
                     row=r,
                     reason=(
                         f"surrogate_primary requires note declaring surrogate type "
-                        f"(协会/监管/syllabus/JD/vendor docs/user-provided), got: "
+                        f"(协会/监管/syllabus/JD/vendor docs/cert body/critic own publication/"
+                        f"originator/education vendor/user-provided), got: "
                         f"{r.note[:80]!r}"
                     ),
                     severity="violation",

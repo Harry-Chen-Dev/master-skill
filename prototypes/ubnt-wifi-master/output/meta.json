@@ -1,0 +1,51 @@
+{
+  "name": "ubnt-wifi-master",
+  "industry": "UniFi/UBNT Enterprise Wi-Fi Engineering",
+  "industry_cn": "UBNT/UniFi 企业 Wi-Fi 工程",
+  "triggers": [
+    "造大师 UBNT Wi-Fi",
+    "UBNT WiFi 工程",
+    "UniFi 高密度部署",
+    "我做企业 Wi-Fi",
+    "80 人办公网慢",
+    "AP 优化",
+    "UniFi 信道规划",
+    "UBNT 选型",
+    "Crosstalk Solutions",
+    "von Nagy 容量优先",
+    "Devin Akin AIOps",
+    "Wi-Fi 6 6E 7 选哪个",
+    "CWNA 还是 UEWA",
+    "更新大师 ubnt-wifi"
+  ],
+  "locale": "global",
+  "profile": "practitioner",
+  "focus": {
+    "primary": "operational",
+    "secondary": "technical"
+  },
+  "last_research_date": "2026-06-02",
+  "source_count": 232,
+  "primary_source_ratio": 0.8664,
+  "tracks_covered": [
+    "figures",
+    "tools",
+    "workflows",
+    "canon",
+    "sources",
+    "glossary"
+  ],
+  "mental_models_count": 6,
+  "playbook_rules_count": 8,
+  "research_dimensions_count": 6,
+  "sub_skills": [],
+  "generator": "master-skill v1.4",
+  "version": "1.4",
+  "changelog": [
+    {
+      "version": "1.4",
+      "date": "2026-06-02",
+      "what": "Initial generation"
+    }
+  ]
+}
