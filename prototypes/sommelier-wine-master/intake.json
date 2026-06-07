@@ -1,0 +1,44 @@
+{
+  "industry": "侍酒师 / 葡萄酒 (Sommelier & Wine) — 葡萄酒鉴赏 + 侍酒服务的职业认知操作系统，从业者/侍酒师/学习者视角。覆盖: (a) 两大认证体系张力 — WSET (Wine & Spirit Education Trust, 英国, 知识+SAT 系统化品鉴方法, Diploma/L4 笔试导向) vs Court of Master Sommeliers (CMS, 美/英, 服务+盲品演绎法+理论三位一体, MS 头衔), 外加 Institute of Masters of Wine (MW, 学术研究+论文) 与 UC Davis 葡萄酒学/葡萄栽培学学院派; (b) 盲品 = 纯 tacit 校准技能 — 演绎品鉴网格 (deductive tasting: 看色/闻香/品味 → 结构线索 calculated structure → 推断品种/产区/年份/酒龄), WSET SAT vs CMS deductive grid 两套方法论; (c) 第一性张力 — codifiable 理论层 (产区/品种/酒法/风土/酿造/葡萄栽培) ⇄ tacit 校准层 (品鉴味觉记忆/盲品/侍酒服务), 这行的核心矛盾是「可背诵的知识」与「不可言传的味觉」之间; (d) 旧世界 vs 新世界框架 — 旧世界以风土/法定产区为组织原则 (AOC/DOCG/QbA 分级法), 新世界以品种为标签; 风土 (terroir) 是核心组织概念; (e) 侍酒服务/酒店层 — 餐厅 floor 的配餐 (food pairing)、醒酒/侍酒温度、酒单与酒窖管理、by-the-glass 与饮品项目经济学、盲品 service exam; (f) 葡萄酒商业层 — 三级分销体系 (美国 three-tier)、定价/配额 (allocation)、期酒 (en primeur)、投资酒 (Liv-ex) 与拍卖; (g) 智识/品味演进 — 帕克百分制 (Robert Parker / Wine Advocate 100-point) vs Jancis Robinson 20 分制散文派; 经典派 vs 现代派酿造; 自然酒/低干预 (natural/minimal-intervention) vs 传统技术派. 学派分歧: WSET 知识体系派 vs CMS 服务盲品派、旧世界风土派 vs 新世界品种/技术派、自然酒派 vs 传统派、百分制点评派 vs 散文叙述派、经典平衡派 vs 浓郁现代派. 不含: 家庭自酿 DIY 套件、纯调酒/鸡尾酒/烈酒、葡萄园重型农机工程、酒精成瘾/公共卫生政策、酒类电商运营纯营销。",
+  "industry_cn": "侍酒师与葡萄酒",
+  "industry_en": "Sommelier & Wine",
+  "industry_type": "wine connoisseurship + sommellerie / hospitality (codifiable theory ⇄ tacit tasting, Old World/New World, global en+fr-primary canon)",
+  "slug": "sommelier-wine",
+  "title": "葡萄酒侍酒师",
+  "focus": "comprehensive",
+  "locale": "global",
+  "profile": "practitioner",
+  "skip_sub_skills": true,
+  "local_materials": {
+    "mode": "none",
+    "paths": [],
+    "covered_tracks": []
+  },
+  "existing_skill": {
+    "found": false,
+    "path": null,
+    "last_research_date": null,
+    "decision": "new"
+  },
+  "triggers": [
+    "侍酒师",
+    "sommelier",
+    "葡萄酒",
+    "wine",
+    "盲品",
+    "blind tasting",
+    "WSET",
+    "Court of Master Sommeliers",
+    "品酒",
+    "葡萄酒配餐",
+    "风土 terroir",
+    "Master of Wine MW"
+  ],
+  "warnings": [
+    "locale=global / en+fr-primary：葡萄酒一手 canon、figures、认证标准、术语几乎全部英文 + 法文 (旧世界产区/法定分级原文为法/意/西/德文)；中文世界以翻译/转述/培训机构二手为主，独立中文一手 canon 结构性偏薄。Track 04 canon 中英失衡，须在诚实边界明示。",
+    "认证/教育机构 (WSET / Court of Master Sommeliers / GuildSomm / Institute of Masters of Wine) + UC Davis 学院派 = 标准制定/方法 originator：source_verifier 对 .edu/.ac.uk/.gov 自动判 verified_primary；对 wsetglobal.com / guildsomm.com / mastersommeliers.org / 评论家自有站 (jancisrobinson.com / 等) 多判 secondary → 按 surrogate_primary 政策标注 (note 含 'certification body' / 'critic own publication' / 'wine education vendor')，不冒充 verified_primary，也别降级把它们丢掉。",
+    "评分/数据/价格类数字 (Parker 100 分、Liv-ex 指数、配额、产量) 多为厂商/平台自报或评论家主观刻度 → synthesis 引用须挂 source_id 或 caveat (评论家主观/平台自报/年份波动)。",
+    "title 「葡萄酒侍酒师」= 6 codepoints，在 4-12 区间。",
+    "sub-skills skip：DistillRequest 通用 description 未要求把 figures 做成 sub-skill。"
+  ]
+}
