@@ -230,6 +230,27 @@ PRIMARY_DOMAINS_EXACT: set[str] = {
     "azure.microsoft.com",
     "aws.amazon.com", "docs.aws.amazon.com",
     "k2-fsa.github.io",
+    # Iter 34 (web-online-exhibition): 3D-web / WebXR / standards / panorama-lib
+    # official docs — Three.js / Khronos / glTF-Transform / model-viewer / R3F /
+    # Babylon / IIIF / A-Frame / panorama viewers / web.dev / SIGGRAPH. First-party
+    # canon for any web-3D / WebXR / frontend-perf / digital-museum skill. Generic.
+    "threejs.org", "www.threejs.org",
+    "discoverthreejs.com",
+    "www.khronos.org", "khronos.org", "registry.khronos.org",
+    "modelviewer.dev",
+    "gltf-transform.dev",
+    "r3f.docs.pmnd.rs", "docs.pmnd.rs",
+    "doc.babylonjs.com", "babylonjs.com", "www.babylonjs.com",
+    "iiif.io", "www.iiif.io",
+    "aframe.io",
+    "pannellum.org", "www.pannellum.org",
+    "photo-sphere-viewer.js.org",
+    "www.marzipano.net", "marzipano.net",
+    "binomialllc.github.io",
+    "matterport.github.io",
+    "www.agisoftmetashape.com", "agisoftmetashape.com",
+    "web.dev",
+    "web3d.siggraph.org", "s2026.siggraph.org",
 }
 
 # Suffix patterns for primary (TLD or sub-domain end-match).
