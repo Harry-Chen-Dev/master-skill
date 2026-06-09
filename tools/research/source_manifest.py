@@ -226,6 +226,15 @@ SURROGATE_NOTE_KEYWORDS: tuple[str, ...] = (
     # Recognized education-content vendor's own first-party material (e.g.
     # Wine Folly). Consistent with the existing "vendor docs" / "supplier" type.
     "education vendor",
+    # iter (perfumery): a standards-setting body publishing its own standard
+    # (e.g. IFRA fragrance standards, ASTM, ISO TC). First-hand for the standard
+    # it originates — the sibling of the existing "certification body" /
+    # "association" / "regulator" types; recurs in every standards-governed field.
+    "standards body",
+    # iter (perfumery): a craft/vocational school publishing its own curriculum
+    # or program (e.g. ISIPCA / GIP perfumery schools, culinary/sommelier schools).
+    # First-party education material — same family as "syllabus" / "education vendor".
+    "perfumery school",
 )
 
 

@@ -282,6 +282,10 @@ PRIMARY_DOMAIN_SUFFIXES: tuple[str, ...] = (
     ".cceacamps.org",     # 中国营地教育联盟 CCEA — 全国行业联盟（.org，非 .org.cn）
     ".inaturalist.org",   # iNaturalist — 公益公民科学平台（自然教育工具一手）
     ".smartedu.cn",       # 国家智慧教育公共服务平台（教育部国家级平台）
+    # iter (perfumery): EU official institutional domain — every *.europa.eu host
+    # is an EU body (eur-lex 立法原文 / osha / ec / europarl). Legislation original
+    # text = genuine verified_primary; recurs in any EU-regulated profession.
+    ".europa.eu",
 )
 
 # Known author / podcast / personal blog primaries (heuristic).

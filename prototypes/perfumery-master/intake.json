@@ -1,0 +1,47 @@
+{
+  "industry": "调香师 / 香水 (Perfumery & Fragrance) — 香水创作与香气调配的职业认知操作系统，从业者/调香师/评香师/学习者视角。覆盖: (a) 第一性张力 — codifiable 理论层 (原料知识/香料化学/嗅觉家族分类/accord 和弦/配方结构 %/挥发度金字塔/IFRA 法规) ⇄ tacit 校准层 (嗅觉记忆/闻香训练/「the nose」/创作直觉/盲嗅识别)，这行的核心矛盾是「可背诵的原料与公式」与「不可言传的嗅觉记忆与品味」之间，嗅觉记忆是极致 tacit 技能; (b) 法系传统 vs 分子/合成派 — 法国 Grasse 天然香料 + haute parfumerie 艺术传统 (天然精油/原精/学徒制) vs 现代分子派 (aroma chemicals 香基/captives 专利分子/headspace 顶空捕香/功能香精)，两套对「香水是什么」的世界观; (c) 培养/传承 — ISIPCA (凡尔赛香水学校) + 四大香精公司内部调香学校 (Givaudan/Firmenich(DSM-Firmenich)/IFF/Symrise) + 学徒制 + 「鼻子」tacit 校准; 角色分工: perfumer(parfumeur 调香师) vs evaluator(评香师) vs flavorist(食用香精师); (d) 行业结构 — 四大香精公司寡头 (Givaudan/DSM-Firmenich/IFF/Symrise) + Mane/Robertet/Takasago，为品牌做 B2B 命题创作 (the brief → creation → mods 模型); vs niche/indie 小众独立香水 (artisanal/直营); 天然 (Grasse/精油) vs 合成 (香基/captives) 的成本与可持续之争; (e) 创作层 — 香调金字塔 (top/heart/base notes 前中后调)、accord 和弦、配方 (酒精中 % 浓度)、浓度分级 (parfum/EDP/EDT/EDC)、调香师的「香风琴」orgue、trials/mods 试样迭代、weighing 称量精度; (f) 法规与安全 — IFRA standards (原料限用)、EU 致敏原标签 (26→80+ allergens)、REACH、橡苔/atranol 限用、经典香水 (Mitsouko/Chanel No.5) 因法规被迫重配 (reformulation) 与创作自由之张力; (g) 评价/批评 — Luca Turin & Tania Sanchez (《Perfumes: The Guide》《The Secret of Scent》气味的科学)、香评人、Fragrantica/Basenotes 社区、vintage vs reformulation 之争、niche vs designer 之争。学派分歧: 法系天然传统派 vs 分子合成派、天然纯粹派 vs 合成实用派、haute parfumerie/niche 艺术派 vs mass designer 商业派、「鼻子=艺术家」vs「调香师=香气工程师/技师」、嗅觉科学之争 (Luca Turin 振动理论 vs 主流形状/受体理论)。不含: 香薰蜡烛/家居香氛纯生产营销、芳香疗法健康宣称 (aromatherapy)、纯化妆品配方学 (超出香精范畴)、DIY 家用香氛套件、精油传销/MLM。",
+  "industry_cn": "调香师与香水",
+  "industry_en": "Perfumery & Fragrance",
+  "industry_type": "perfumery / fragrance creation (codifiable raw-material & aroma chemistry ⇄ extreme-tacit olfactory memory; French-tradition vs molecular school; global en+fr-primary, surrogate-heavy)",
+  "slug": "perfumery",
+  "title": "调香师与香水",
+  "focus": "comprehensive",
+  "locale": "global",
+  "profile": "practitioner",
+  "skip_sub_skills": true,
+  "local_materials": {
+    "mode": "none",
+    "paths": [],
+    "covered_tracks": []
+  },
+  "existing_skill": {
+    "found": false,
+    "path": null,
+    "last_research_date": null,
+    "decision": "new"
+  },
+  "triggers": [
+    "调香师",
+    "perfumer",
+    "香水",
+    "perfumery",
+    "调香",
+    "香精",
+    "fragrance",
+    "闻香",
+    "accord 和弦",
+    "前中后调",
+    "IFRA",
+    "ISIPCA",
+    "香料化学",
+    "niche 小众香水"
+  ],
+  "warnings": [
+    "locale=global / en+fr-primary：香水一手 canon、figures、教育/认证标准、术语几乎全部英文 + 法文 (法国 Grasse / ISIPCA / haute parfumerie 传统原文为法文；原料/工艺/分级术语大量法文)。中文世界以翻译/培训机构/KOL 测评二手为主，独立中文一手 canon 结构性偏薄。Track 04 canon 中英失衡，须在诚实边界明示。",
+    "偏冷 + 闭源主导：核心创作 know-how 藏在四大香精公司 (Givaudan/DSM-Firmenich/IFF/Symrise) 内部 + 调香师个人，公开一手稀薄。须用 Surrogate Sources Policy 把厚度堆回：教育机构 (ISIPCA / GIP / 香精公司内部学校) note 含 'perfumery school'、标准/协会 (IFRA / IFEAT / The Fragrance Foundation) note 含 'standards body' / 'industry association'、原料供应商/香精公司 vendor docs (givaudan.com / firmenich / iff / 原料商 perfumersworld/pellwall) note 含 'vendor docs'、调香师个人站/长访谈 (perfumer own site / interview) note 含 'perfumer own publication'、香评社区 (Fragrantica/Basenotes 仅作 surrogate 不冒充 verified_primary)。严标 surrogate_primary，不冒充也别丢。",
+    "数字类 (市场份额、四大营收占比、浓度 %、原料用量阈值、allergen 数量、香水留香小时) 多为厂商自报/平台口径/法规版本差异/约定俗成 → synthesis 引用须挂 source_id 或 caveat (厂商自报 / IFRA 第 N 修订版 / 业内估 / 约定俗成各家不同)。IFRA 限用浓度随修订版本变化，引用须标版本。",
+    "嗅觉科学有真实争议：Luca Turin 振动理论 vs 主流形状/受体理论 (2004 Keller-Vosshall 反驳)，保留分歧不站队；振动理论是少数派，不当主流写。",
+    "title 「调香师与香水」= 6 codepoints，在 4-12 区间，无禁用字符。",
+    "sub-skills skip：DistillRequest 通用 description (agent-picked) 未要求把 figures 做成 sub-skill。"
+  ]
+}
