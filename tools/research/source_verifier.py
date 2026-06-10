@@ -251,6 +251,40 @@ PRIMARY_DOMAINS_EXACT: set[str] = {
     "www.agisoftmetashape.com", "agisoftmetashape.com",
     "web.dev",
     "web3d.siggraph.org", "s2026.siggraph.org",
+    # Iter 35 (management-consulting): top-3 strategy firms' OWN insight/publication
+    # sites + HBR/HBS Publishing + Big-Four strategy arms + major boutique firms.
+    # These are first-party thought-leadership canon (BCG growth-share matrix /
+    # experience curve, McKinsey 7S/Three Horizons, Bain NPS, Porter Five Forces via
+    # HBR) — the firms literally authored the frameworks. Parallel to allowlisting
+    # Adobe/Figma for design or Vanguard/Berkshire for investing. Generic for any
+    # strategy / business / management / case-interview skill.
+    "www.mckinsey.com", "mckinsey.com",
+    "www.bcg.com", "bcg.com",
+    "www.bain.com", "bain.com",
+    "hbr.org", "www.hbr.org",          # Harvard Business Review — strategy canon journal
+    "store.hbr.org",                   # HBR Store — official article/book landing
+    "www.deloitte.com", "deloitte.com", "www2.deloitte.com",
+    "www.strategyand.pwc.com", "strategyand.pwc.com",  # Strategy& (PwC)
+    "www.pwc.com", "pwc.com",
+    "www.ey.com", "ey.com",
+    "kpmg.com", "www.kpmg.com",
+    "www.oliverwyman.com", "oliverwyman.com",
+    "www.kearney.com", "kearney.com",
+    "www.rolandberger.com", "rolandberger.com",
+    "www.lek.com", "lek.com",
+    "www.adlittle.com", "adlittle.com",  # Arthur D. Little
+    "www.netpromotersystem.com", "netpromotersystem.com",  # Bain NPS official
+    "bcghendersoninstitute.com", "www.bcghendersoninstitute.com",  # BCG's official R&D institute (Henderson/experience-curve canon archive)
+    # Consulting-canon author OWN sites (parallel to lexfridman.com / karpathy.ai above):
+    "www.barbaraminto.com", "barbaraminto.com",  # Barbara Minto — Pyramid Principle author official
+    "caseinterview.com", "www.caseinterview.com",  # Victor Cheng — Case Interview Secrets / LOMS official
+    "mwstewart.com", "www.mwstewart.com",          # Matthew Stewart — The Management Myth author
+    "rogerlmartin.com", "www.rogerlmartin.com",  # Roger Martin (Playing to Win) official
+    "www.mintzberg.org", "mintzberg.org",          # Henry Mintzberg official
+    "blueoceanstrategy.com", "www.blueoceanstrategy.com",  # Kim & Mauborgne Blue Ocean official
+    "claytonchristensen.com", "www.claytonchristensen.com",  # Clayton Christensen official
+    "www.ritamcgrath.com", "ritamcgrath.com",      # Rita McGrath — transient advantage / inflection points official
+    "tompeters.com", "www.tompeters.com",          # Tom Peters — In Search of Excellence / 7S author official
 }
 
 # Suffix patterns for primary (TLD or sub-domain end-match).
