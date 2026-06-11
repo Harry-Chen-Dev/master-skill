@@ -285,6 +285,25 @@ PRIMARY_DOMAINS_EXACT: set[str] = {
     "claytonchristensen.com", "www.claytonchristensen.com",  # Clayton Christensen official
     "www.ritamcgrath.com", "ritamcgrath.com",      # Rita McGrath — transient advantage / inflection points official
     "tompeters.com", "www.tompeters.com",          # Tom Peters — In Search of Excellence / 7S author official
+    # Iter 36 (enterprise-b2b-sales): B2B complex-sales methodology ORIGINATORS'
+    # own sites (they authored the methodologies — parallel to McKinsey authoring
+    # 7S or Adobe authoring PSD) + the canonical first-party data lab (Gong Labs)
+    # + the de-facto practitioner podcast. These ARE the canon of enterprise B2B
+    # selling. Generic for any future sales / GTM / revenue skill.
+    "www.forcemanagement.com", "forcemanagement.com",      # Force Management — Command of the Message / Value Framework originator
+    "www.sandler.com", "sandler.com",                      # Sandler — Sandler Selling System originator
+    "meddicc.com", "www.meddicc.com",                      # MEDDICC (Andy Whyte) — MEDDIC/MEDDPICC canon org
+    "meddic.academy", "www.meddic.academy",                # MEDDIC Academy (Darius Lahoutifard) — MEDDIC training originator
+    "www.challengerinc.com", "challengerinc.com",          # Challenger Inc — the org behind The Challenger Sale/Customer
+    "winningbydesign.com", "www.winningbydesign.com",      # Winning by Design (Jacco van der Kooij) — SaaS revenue architecture / bowtie canon
+    "predictablerevenue.com", "www.predictablerevenue.com",# Predictable Revenue (Aaron Ross) — SDR/AE split canon
+    "www.forentrepreneurs.com", "forentrepreneurs.com",    # David Skok — SaaS metrics canon (CAC/LTV/magic number)
+    "www.gong.io", "gong.io",                              # Gong — Gong Labs first-party conversation-intelligence sales research (widely-cited benchmark data)
+    "30mpc.com", "www.30mpc.com",                          # 30 Minutes to President's Club — de-facto top practitioner podcast (Cegelski & Farrokh)
+    "www.rainsalestraining.com", "rainsalestraining.com",  # RAIN Group — insight selling first-party research
+    "www.richardson.com", "richardson.com",                # Richardson Sales Performance — Sprint Selling / acquired Huthwaite-SPIN lineage
+    "www.huthwaiteinternational.com", "huthwaiteinternational.com",  # Huthwaite International — the org Rackham founded; SPIN methodology originator
+    "jolteffect.com", "www.jolteffect.com",                # The JOLT Effect (Dixon & McKenna) — no-decision/FOMU canon book site
 }
 
 # Suffix patterns for primary (TLD or sub-domain end-match).
@@ -369,6 +388,19 @@ PRIMARY_PERSONAL_DOMAINS: set[str] = {
     "www.philgalfond.com", "philgalfond.com",            # Phil Galfond — Run It Once founder, 个人长文
     "noambrown.github.io",                                # Noam Brown — Libratus/Pluribus 作者学术主页
     "jonathanlittlepoker.com", "www.jonathanlittlepoker.com",  # Jonathan Little — PokerCoaching 创始人
+    # Iter 36 (enterprise-b2b-sales): B2B-sales figures' OWN long-form sites —
+    # the author/figure speaking for themselves (parallel to lexfridman.com /
+    # caseinterview.com already above). Genuine first-hand practitioner canon.
+    "salesgravy.com", "www.salesgravy.com",              # Jeb Blount — Fanatical Prospecting / Sales EQ
+    "salesgrowth.com", "www.salesgrowth.com",            # Keenan — A Sales Growth Company / Gap Selling
+    "thesalesblog.com", "www.thesalesblog.com",          # Anthony Iannarino — The Lost Art of Closing / Eat Their Lunch
+    "iannarino.com", "www.iannarino.com",                # Anthony Iannarino — personal
+    "joshbraun.com", "www.joshbraun.com",                # Josh Braun — modern prospecting / objection handling
+    "blackswanltd.com", "www.blackswanltd.com",          # Chris Voss — The Black Swan Group (Never Split the Difference)
+    "jbarrows.com", "www.jbarrows.com",                  # John Barrows — JB Sales training (driving-to-close canon)
+    "saleshood.com", "www.saleshood.com",                # Elay Cohen — sales enablement (ex-Salesforce)
+    "flipthescript.com", "www.flipthescript.com",        # Becc Holland — Flip the Script founder, modern prospecting
+    "podcast.jbarrows.com",                              # John Barrows — Make It Happen Mondays podcast (subdomain of whitelisted jbarrows.com)
 }
 
 # Substack / Beehiiv-hosted newsletters: primary IF subdomain looks like an
