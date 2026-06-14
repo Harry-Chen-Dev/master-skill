@@ -304,6 +304,24 @@ PRIMARY_DOMAINS_EXACT: set[str] = {
     "www.richardson.com", "richardson.com",                # Richardson Sales Performance — Sprint Selling / acquired Huthwaite-SPIN lineage
     "www.huthwaiteinternational.com", "huthwaiteinternational.com",  # Huthwaite International — the org Rackham founded; SPIN methodology originator
     "jolteffect.com", "www.jolteffect.com",                # The JOLT Effect (Dixon & McKenna) — no-decision/FOMU canon book site
+    # Iter 35 (clinical-diagnostic-reasoning): medical journals / academic
+    # publishers / med orgs + the field's own teaching orgs. First-party canon
+    # for any medical / clinical / health / med-ed skill. Generic.
+    "jamanetwork.com", "www.jamanetwork.com",
+    "www.amjmed.com",                          # American Journal of Medicine
+    "www.annemergmed.com",                     # Annals of Emergency Medicine
+    "bjgp.org",                                # British Journal of General Practice
+    "link.springer.com", "www.springer.com",   # Springer
+    "journals.lww.com",                        # Wolters Kluwer / LWW (Academic Medicine)
+    "www.tandfonline.com", "tandfonline.com",  # Taylor & Francis
+    "www.degruyter.com", "degruyter.com",      # De Gruyter (Diagnosis 期刊)
+    "bmcmededuc.biomedcentral.com",            # BMC Medical Education
+    "www.nationalacademies.org", "nationalacademies.org", "nap.nationalacademies.org",  # NAM/NASEM 报告
+    "www.aamc.org", "aamc.org",                # AAMC
+    "www.improvediagnosis.org", "improvediagnosis.org",  # SIDM 诊断安全学会
+    "clinicalproblemsolving.com", "www.clinicalproblemsolving.com",  # Clinical Problem Solvers
+    "www.massgeneral.org",                     # Mass General (academic hospital)
+    "ucsdim.com",                              # UCSD Internal Medicine 教学
 }
 
 # Suffix patterns for primary (TLD or sub-domain end-match).
