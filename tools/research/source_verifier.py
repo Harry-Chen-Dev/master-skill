@@ -322,6 +322,20 @@ PRIMARY_DOMAINS_EXACT: set[str] = {
     "clinicalproblemsolving.com", "www.clinicalproblemsolving.com",  # Clinical Problem Solvers
     "www.massgeneral.org",                     # Mass General (academic hospital)
     "ucsdim.com",                              # UCSD Internal Medicine 教学
+    # Iter 36 (xiaohongshu / twitter-cn AI creator): 小红书官方子域(平台规则/创作一手)
+    # + 中文 AI 创作者个人站(figure 一手)。通用于 zh-CN 内容创作者 / 自媒体 skill。
+    "creator.xiaohongshu.com", "pgy.xiaohongshu.com",
+    "school.xiaohongshu.com", "pro.xiaohongshu.com",
+    "guizang.ai", "www.guizang.ai",            # 歸藏 个人站
+    "qiaomu.ai", "www.qiaomu.ai",              # 向阳乔木 个人站
+    "baoyu.io", "www.baoyu.io",                # 宝玉 个人站
+    # Iter 37 (twitter-cn AI creator): X 官方 docs + 代码截图工具 + 英文写作 canon
+    # 作者站。通用 zh-CN/全球 内容创作者 / 写作 / 独立开发 skill。
+    "help.x.com", "legal.x.com",
+    "carbon.now.sh",
+    "swyx.io", "www.swyx.io",                  # swyx — Learn in Public
+    "perell.com", "www.perell.com",            # David Perell — Write of Passage
+    "readmake.com", "www.readmake.com",        # Pieter Levels — MAKE (build in public)
 }
 
 # Suffix patterns for primary (TLD or sub-domain end-match).
