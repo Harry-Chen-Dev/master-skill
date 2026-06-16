@@ -336,6 +336,21 @@ PRIMARY_DOMAINS_EXACT: set[str] = {
     "swyx.io", "www.swyx.io",                  # swyx — Learn in Public
     "perell.com", "www.perell.com",            # David Perell — Write of Passage
     "readmake.com", "www.readmake.com",        # Pieter Levels — MAKE (build in public)
+    # Iter 38 (zhihu AI creator): AI content-production tool vendor official sites
+    # — first-party product homepages (parallel to figma/photopea allowlisting).
+    # Generic for any AI-writing / content-ops / LLM-tooling skill.
+    "metaso.cn", "www.metaso.cn",               # 秘塔 AI 搜索 (上海秘塔科技)
+    "kimi.com", "www.kimi.com",                 # Kimi (月之暗面 Moonshot)
+    "deepseek.com", "www.deepseek.com",         # DeepSeek (深度求索)
+    "doubao.com", "www.doubao.com",             # 豆包 (字节)
+    "claude.ai",                                # Claude (Anthropic)
+    "perplexity.ai", "www.perplexity.ai",       # Perplexity
+    "midjourney.com", "www.midjourney.com",     # Midjourney
+    "mermaid.live",                             # Mermaid Live Editor (official)
+    "drawio.com", "www.drawio.com",             # draw.io (JGraph) 官方
+    "ray.so",                                   # ray.so 代码美图 (Raycast 出品)
+    "editor.mdnice.com", "mdnice.com", "www.mdnice.com",  # Markdown Nice (墨滴) 官方编辑器
+    "matrix.tencent.com",                       # 腾讯朱雀 AI 检测 (official)
 }
 
 # Suffix patterns for primary (TLD or sub-domain end-match).
@@ -433,6 +448,15 @@ PRIMARY_PERSONAL_DOMAINS: set[str] = {
     "saleshood.com", "www.saleshood.com",                # Elay Cohen — sales enablement (ex-Salesforce)
     "flipthescript.com", "www.flipthescript.com",        # Becc Holland — Flip the Script founder, modern prospecting
     "podcast.jbarrows.com",                              # John Barrows — Make It Happen Mondays podcast (subdomain of whitelisted jbarrows.com)
+    # Iter 38 (zhihu AI creator): zh-CN AI 写作/研究 figure first-party blogs &
+    # personal sites. Generic for any zh-CN AI / writing / research skill.
+    "kexue.fm",                                          # 苏剑林 科学空间 (RoPE 发明人; /feed 全文)
+    "hzwer.com",                                         # hzwer 黄哲威 个人站
+    "dingxiaohan.xyz",                                   # 丁霄汉 个人站 (RepVGG/RepLKNet 一作)
+    "wwxfromtju.github.io",                              # 王小惟 个人站 (RL4LLM)
+    "lijigang.com",                                      # 李继刚 个人博客 (prompt 方法论)
+    "yangzhiping.com", "www.yangzhiping.com",            # 阳志平 (认知写作学 / 开智)
+    "huasheng.ai", "www.huasheng.ai",                    # 花叔 Alchain (女娲/huashu-design)
 }
 
 # Substack / Beehiiv-hosted newsletters: primary IF subdomain looks like an
