@@ -351,6 +351,46 @@ PRIMARY_DOMAINS_EXACT: set[str] = {
     "ray.so",                                   # ray.so 代码美图 (Raycast 出品)
     "editor.mdnice.com", "mdnice.com", "www.mdnice.com",  # Markdown Nice (墨滴) 官方编辑器
     "matrix.tencent.com",                       # 腾讯朱雀 AI 检测 (official)
+    # Iter 39 (music-production): audio-engineering first-party — plugin/hardware
+    # vendors (FabFilter/iZotope/UAD/Waves/Valhalla authored the de-facto tools,
+    # parallel to Adobe/Figma for design), the field's canonical trade press
+    # (Sound on Sound / Mix / Tape Op — like HBR for consulting), pro standards
+    # bodies (AES / EBU loudness), and originator masterclass/education platforms.
+    # Generic for any future audio / recording / mixing / mastering skill.
+    "www.soundonsound.com", "soundonsound.com",          # Sound on Sound — canonical recording/mixing trade magazine
+    "www.mixonline.com", "mixonline.com",                # Mix magazine
+    "tapeop.com", "www.tapeop.com",                       # Tape Op
+    "www.aes.org", "aes.org",                             # Audio Engineering Society — pro standards/journal body
+    "tech.ebu.ch", "www.ebu.ch", "ebu.ch",               # EBU R128 loudness standard (BS.1770 lineage)
+    # plugin / DAW / hardware vendor official sites (vendor docs = first-party tool source)
+    "www.fabfilter.com", "fabfilter.com",
+    "www.izotope.com", "izotope.com",
+    "www.uaudio.com", "uaudio.com",                       # Universal Audio
+    "www.waves.com", "waves.com",
+    "www.plugin-alliance.com", "plugin-alliance.com",
+    "valhalladsp.com", "www.valhalladsp.com",
+    "www.native-instruments.com", "native-instruments.com",
+    "www.ableton.com", "ableton.com",
+    "www.avid.com", "avid.com",                           # Pro Tools
+    "www.steinberg.net", "steinberg.net",                 # Cubase
+    "www.image-line.com", "image-line.com",               # FL Studio
+    "www.reaper.fm", "reaper.fm",                          # Cockos REAPER
+    "www.presonus.com", "presonus.com",                  # Studio One
+    "www.soundtoys.com", "soundtoys.com",
+    "www.slatedigital.com", "slatedigital.com",
+    "www.eventideaudio.com", "eventideaudio.com",
+    "www.genelec.com", "genelec.com",
+    "www.rme-audio.de", "rme-audio.de",
+    "www.adam-audio.com", "adam-audio.com",
+    "www.focusrite.com", "focusrite.com",
+    "splice.com", "www.splice.com",                       # Splice — sample/loop ecosystem
+    "www.spitfireaudio.com", "spitfireaudio.com",
+    "www.celemony.com", "celemony.com",                   # Melodyne (pitch/time editing)
+    "www.antarestech.com", "antarestech.com",             # Auto-Tune
+    # originator masterclass / education platforms (parallel to caseinterview.com)
+    "mixwiththemasters.com", "www.mixwiththemasters.com",
+    "www.producelikeapro.com", "producelikeapro.com",    # Warren Huart
+    "www.puremix.com", "puremix.com", "puremix.net",
 }
 
 # Suffix patterns for primary (TLD or sub-domain end-match).
@@ -457,6 +497,16 @@ PRIMARY_PERSONAL_DOMAINS: set[str] = {
     "lijigang.com",                                      # 李继刚 个人博客 (prompt 方法论)
     "yangzhiping.com", "www.yangzhiping.com",            # 阳志平 (认知写作学 / 开智)
     "huasheng.ai", "www.huasheng.ai",                    # 花叔 Alchain (女娲/huashu-design)
+    # Iter 39 (music-production): audio-engineering figures'/educators' OWN sites
+    # — the author/figure speaking for themselves (parallel to lexfridman.com).
+    # Genuine first-hand canon. Generic for any future audio / mixing skill.
+    "cambridge-mt.com", "www.cambridge-mt.com",          # Mike Senior — Mixing Secrets / free multitracks
+    "www.digido.com", "digido.com",                       # Bob Katz — Digital Domain Mastering / K-system
+    "productionadvice.co.uk", "www.productionadvice.co.uk",  # Ian Shepherd — loudness/Dynamic Range Day
+    "recordingrevolution.com", "www.recordingrevolution.com",  # Graham Cochrane — bedroom mixing
+    "theproaudiofiles.com", "www.theproaudiofiles.com",  # The Pro Audio Files — engineer-authored tutorials
+    "pensadosplace.tv", "www.pensadosplace.tv",          # Dave Pensado — Pensado's Place
+    "www.gearspace.com", "gearspace.com",                # Gearspace (ex-Gearslutz) — pro-engineer forum (practitioner primary)
 }
 
 # Substack / Beehiiv-hosted newsletters: primary IF subdomain looks like an
