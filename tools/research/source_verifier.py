@@ -391,6 +391,53 @@ PRIMARY_DOMAINS_EXACT: set[str] = {
     "mixwiththemasters.com", "www.mixwiththemasters.com",
     "www.producelikeapro.com", "producelikeapro.com",    # Warren Huart
     "www.puremix.com", "puremix.com", "puremix.net",
+    # iter (investment-banking-mna): M&A is a practitioner field whose first-party
+    # voices are the advisory banks, the market-data originators, the deal-tooling
+    # vendors, and the dealmaker podcasts. Same precedent as the design/dev-tooling
+    # vendor allowlist (figma/adobe) and the audio-gear vendors above — a firm's /
+    # vendor's / data-originator's OWN site is verified_primary for itself.
+    # (Education vendors — WSP/CFI/BIWS/TTS — stay surrogate_primary via note; law
+    #  firm client alerts stay surrogate_primary "own publication".)
+    # — advisory / M&A boutiques (their own thought-leadership + deal pages):
+    "www.goldmansachs.com", "goldmansachs.com",
+    "www.lazard.com", "lazard.com",
+    "www.moelis.com", "moelis.com",
+    "www.centerviewpartners.com", "centerviewpartners.com",
+    "www.pjtpartners.com", "pjtpartners.com",
+    "pwpartners.com", "www.pwpartners.com",            # Perella Weinberg
+    "www.hl.com", "hl.com",                            # Houlihan Lokey
+    # — market-data / deal-data originators (their own data + press):
+    "press.spglobal.com", "www.spglobal.com", "spglobal.com",
+    "www.lseg.com", "lseg.com",                        # LSEG / Refinitiv
+    "pitchbook.com", "www.pitchbook.com",
+    "dealogic.com", "www.dealogic.com",
+    "info.mergermarket.com", "www.mergermarket.com", "mergermarket.com",
+    "insight.factset.com", "www.factset.com", "factset.com",
+    "www.bloomberg.com",                               # data/terminal originator pages
+    "www.srsacquiom.com", "srsacquiom.com",            # SRS Acquiom deal-terms study (dataset originator)
+    # — deal tooling / VDR / AI-for-finance vendors (own product + docs pages):
+    "www.microsoft.com", "microsoft.com",              # Excel/PowerPoint product pages (subdomains already covered)
+    "www.think-cell.com", "think-cell.com",
+    "upslide.net", "www.upslide.net",
+    "macabacus.com", "www.macabacus.com",
+    "www.intralinks.com", "intralinks.com",
+    "www.idealsvdr.com", "idealsvdr.com",
+    "www.datasite.com", "datasite.com",
+    "www.ansarada.com", "ansarada.com",
+    "www.firmex.com", "firmex.com",
+    "intapp.com", "www.intapp.com",
+    "www.hebbia.com", "hebbia.com",
+    "www.brightwave.io", "brightwave.io",
+    "www.blueflame.ai", "blueflame.ai",
+    "rogo.ai", "www.rogo.ai",
+    "daloopa.com", "www.daloopa.com",
+    "grata.com", "www.grata.com",
+    "kisonpatel.com", "www.kisonpatel.com",            # DealRoom / Kison Patel own site
+    "www.mascience.com", "mascience.com",              # M&A Science (Kison Patel) — podcast + book + blog platform
+    "www.alpha-sense.com", "alpha-sense.com",
+    # — dealmaker podcast channels (channel own site = primary, like a youtube channel):
+    "www.acquired.fm", "acquired.fm",
+    "podcasts.thecompoundnews.com",
 }
 
 # Suffix patterns for primary (TLD or sub-domain end-match).
@@ -507,6 +554,9 @@ PRIMARY_PERSONAL_DOMAINS: set[str] = {
     "theproaudiofiles.com", "www.theproaudiofiles.com",  # The Pro Audio Files — engineer-authored tutorials
     "pensadosplace.tv", "www.pensadosplace.tv",          # Dave Pensado — Pensado's Place
     "www.gearspace.com", "gearspace.com",                # Gearspace (ex-Gearslutz) — pro-engineer forum (practitioner primary)
+    # Iter (investment-banking-mna): Aswath Damodaran's own blog — the valuation
+    # originator speaking long-form (NYU stern page already covered by .edu suffix).
+    "aswathdamodaran.blogspot.com",
 }
 
 # Substack / Beehiiv-hosted newsletters: primary IF subdomain looks like an
