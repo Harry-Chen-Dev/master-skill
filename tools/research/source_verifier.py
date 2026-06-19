@@ -438,6 +438,36 @@ PRIMARY_DOMAINS_EXACT: set[str] = {
     # — dealmaker podcast channels (channel own site = primary, like a youtube channel):
     "www.acquired.fm", "acquired.fm",
     "podcasts.thecompoundnews.com",
+    # iter (product-ux-design): UX research org + design-tool vendors + standards
+    # bodies — genuine first-party. NN/g = Nielsen & Norman's own research org (the
+    # definitive UX first-hand authority); vendor official sites = vendor 一手 (per
+    # manifest Surrogate Policy "vendor docs = verified_primary"); standards bodies =
+    # ground truth. Generic for any future design / UX / product-design skill.
+    "www.nngroup.com", "nngroup.com",                   # Nielsen Norman Group — UX 研究一手权威
+    "www.designcouncil.org.uk", "designcouncil.org.uk", # UK Design Council — Double Diamond originator
+    "designtokens.org", "tr.designtokens.org",          # W3C Design Tokens Community Group — 标准
+    "www.designkit.org", "designkit.org",               # IDEO — Design Kit 方法库 (一手)
+    "config.figma.com",                                 # Figma Config — vendor 自家大会
+    # — design-tool / research-tool vendor official sites (vendor 一手):
+    "www.figma.com", "figma.com",
+    "www.optimalworkshop.com", "optimalworkshop.com",
+    "www.maze.co", "maze.co",
+    "v0.dev",
+    "zeroheight.com", "www.zeroheight.com", "report.zeroheight.com",
+    "www.usertesting.com", "usertesting.com",
+    "www.tailwindcss.com", "tailwindcss.com",
+    "www.supernova.io", "supernova.io",
+    "www.sketch.com", "sketch.com",
+    "www.protopie.io", "protopie.io",
+    "principleformac.com", "www.principleformac.com",
+    "penpot.app", "www.penpot.app",
+    "miro.com", "www.miro.com",
+    "tokens.studio", "www.tokens.studio",
+    "dovetail.com", "www.dovetail.com",
+    "clarity.microsoft.com",
+    "baymard.com", "www.baymard.com",
+    "www.hotjar.com", "hotjar.com",
+    "www.framer.com", "framer.com",
 }
 
 # Suffix patterns for primary (TLD or sub-domain end-match).
@@ -557,6 +587,28 @@ PRIMARY_PERSONAL_DOMAINS: set[str] = {
     # Iter (investment-banking-mna): Aswath Damodaran's own blog — the valuation
     # originator speaking long-form (NYU stern page already covered by .edu suffix).
     "aswathdamodaran.blogspot.com",
+    # Iter (product-ux-design): UX/design figures' & authors' OWN long-form sites /
+    # official book sites — the figure/author speaking for themselves (parallel to
+    # lexfridman.com / cambridge-mt.com). Genuine first-hand canon. Generic for any
+    # future design / UX / product-design skill.
+    "jnd.org", "www.jnd.org",                           # Don Norman — 个人站
+    "www.jakobnielsenphd.com", "jakobnielsenphd.com",   # Jakob Nielsen — 个人站 (NN/g 已在 EXACT)
+    "sensible.com", "www.sensible.com",                 # Steve Krug — Advanced Common Sense / DMMT
+    "www.svpg.com", "svpg.com",                         # Marty Cagan — Silicon Valley Product Group
+    "www.producttalk.org", "producttalk.org",           # Teresa Torres — Continuous Discovery / Product Talk
+    "www.thesprintbook.com", "thesprintbook.com",       # Jake Knapp — Sprint 官方书站
+    "atomicdesign.bradfrost.com", "bradfrost.com", "www.bradfrost.com",  # Brad Frost — Atomic Design
+    "www.lukew.com", "lukew.com",                       # Luke Wroblewski — LukeW / Mobile First
+    "www.deceptive.design", "deceptive.design",         # Harry Brignull — deceptive/dark patterns originator
+    "mule.design", "www.mule.design", "www.mulebook.com", "mulebook.com",  # Erika Hall — Mule Design / Just Enough Research
+    "leanuxbook.com", "www.leanuxbook.com",             # Jeff Gothelf — Lean UX 官方书站
+    "lawsofux.com", "www.lawsofux.com",                 # Jon Yablonski — Laws of UX
+    "maeda.pm", "www.maeda.pm",                         # John Maeda — 个人站
+    "kimgoodwin.com", "www.kimgoodwin.com",             # Kim Goodwin — Designing for the Digital Age
+    "refactoringui.com", "www.refactoringui.com",       # Wathan & Schoger — Refactoring UI 官方书站
+    "articles.uie.com", "uie.com", "www.uie.com",       # Jared Spool — User Interface Engineering
+    "measuringu.com", "www.measuringu.com",             # Jeff Sauro — MeasuringU (SUS/quant UX research originator)
+    "designbetterpodcast.com", "www.designbetterpodcast.com",  # Design Better — 一手 show 自家站
 }
 
 # Substack / Beehiiv-hosted newsletters: primary IF subdomain looks like an
