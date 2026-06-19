@@ -80,6 +80,38 @@ EXIT_CODES = {
 # Academic, standard bodies, government, journal publishers, well-known
 # canonical channels.
 PRIMARY_DOMAINS_EXACT: set[str] = {
+    # iter40 (photography): genuine first-party photography vendor / standards-body
+    # / optics docs domains — gear & post-processing vendors are first-party for
+    # "what this tool is/does", ethics-code publishing bodies are originators.
+    "www.aputure.com", "aputure.com",                # LED 持续光 vendor
+    "www.topazlabs.com", "topazlabs.com",            # Topaz Photo AI vendor
+    "www.dxo.com", "dxo.com",                        # DxO PureRAW/PhotoLab vendor
+    "calibrite.com", "www.calibrite.com",            # 校色仪 vendor (ex X-Rite)
+    "pixieset.com", "www.pixieset.com",              # 客片交付/选片平台 vendor
+    "www.godox.com", "godox.com",                    # 平民灯具 vendor
+    "www.sigma-global.com", "sigma-global.com",      # 副厂镜头 vendor
+    "nppa.org", "www.nppa.org",                       # 视觉记者伦理守则发布机构
+    "www.worldpressphoto.org", "worldpressphoto.org",# 改图/AI 红线发布机构 (originator)
+    "lenspire.zeiss.com",                            # 蔡司光学技术白皮书 (optics 一手)
+    "snapshot.canon-asia.com",                       # Canon 官方技法内容 (vendor 一手)
+    # iter40 (photography): photography institutions / cooperatives / festivals /
+    # competition orgs / podcast-official sites — first-party for the org/show.
+    "www.magnumphotos.com", "magnumphotos.com",      # Magnum 摄影合作社 (Capa/Salgado/HCB 一手)
+    "www.icp.org", "icp.org",                        # International Center of Photography (Capa 创办)
+    "aperture.org", "www.aperture.org", "archive.aperture.org",  # Aperture 基金会/出版 (canon 机构)
+    "www.iphf.org", "iphf.org",                      # Intl Photography Hall of Fame (机构)
+    "www.hauserwirth.com", "hauserwirth.com",        # 画廊官方页 (代理艺术家一手资料)
+    "thecandidframe.com", "www.thecandidframe.com",  # The Candid Frame 播客官方
+    "thisweekinphoto.com", "www.thisweekinphoto.com",# TWiP 播客官方
+    "www.streetphotographymagazine.com", "streetphotographymagazine.com",
+    "fstopandlisten.podbean.com",                    # F-Stop Collaborate 播客官方 feed
+    "phlearn.com", "www.phlearn.com",                # Aaron Nace 后期教育品牌官方
+    "www.rencontres-arles.com", "rencontres-arles.com",  # Arles 摄影节官方
+    "visapourlimage.com", "www.visapourlimage.com",  # Visa pour l'Image 纪实节官方
+    "gulfphotoplus.com", "www.gulfphotoplus.com",    # GPP 官方
+    "www.wppiexpo.com", "wppiexpo.com",              # WPPI 婚礼人像展官方
+    "www.worldphoto.org", "worldphoto.org",          # Sony World Photography Awards 主办方
+    "www.photoawards.com", "photoawards.com",        # IPA 国际摄影奖官方
     "arxiv.org",
     "doi.org",
     "ieeexplore.ieee.org",
@@ -508,6 +540,27 @@ PRIMARY_DOMAIN_SUFFIXES: tuple[str, ...] = (
 # Known author / podcast / personal blog primaries (heuristic).
 # This list is non-exhaustive — agent can extend per industry research.
 PRIMARY_PERSONAL_DOMAINS: set[str] = {
+    # iter40 (photography): figure/estate own sites — author blogs + artist foundation
+    "henricartierbresson.org", "www.henricartierbresson.org",  # Fondation HCB (作者基金会)
+    "strobist.blogspot.com",                                    # David Hobby 本人 Strobist 原文
+    "joemcnally.com", "www.joemcnally.com",                     # Joe McNally 本人博客
+    "seantucker.photography", "www.seantucker.photography",     # Sean Tucker 本人教程站
+    "www.anseladams.com", "anseladams.com",                     # Ansel Adams 官方/画廊
+    "www.stevemccurry.com", "stevemccurry.com",                 # Steve McCurry 本人官网
+    "www.chasejarvis.com", "chasejarvis.com",                   # Chase Jarvis 本人官网
+    "www.joelgrimes.com", "joelgrimes.com",                     # Joel Grimes 本人官网
+    "karltaylor.com", "www.karltaylor.com",                     # Karl Taylor 本人
+    "visualeducation.com", "www.visualeducation.com",           # Karl Taylor 教育平台
+    "zackarias.com", "www.zackarias.com",                       # Zack Arias 本人
+    "www.aaron-nace.com", "aaron-nace.com",                     # Aaron Nace 本人
+    "erickimphotography.com", "www.erickimphotography.com",     # Eric Kim 本人街头博客
+    "www.billwadman.com", "billwadman.com",                     # Bill Wadman 摄影师本人博客
+    "www.joeedelman.com", "joeedelman.com",                     # Joe Edelman 本人
+    "www.solsticeretouch.com", "solsticeretouch.com",           # Pratik Naik 工作室官方
+    "www.saulleiterfoundation.org", "saulleiterfoundation.org", # Saul Leiter 基金会
+    "learn.lindsayadlerphotography.com",
+    "lindsayadlerphotography.com", "www.lindsayadlerphotography.com",  # Lindsay Adler 本人
+    "victorliu.tuchong.com", "thomaskksj.tuchong.com",          # 阿刘/储卫民 图虫创作者主页 (一手)
     "lexfridman.com",
     "latent.space",
     "www.latent.space",
