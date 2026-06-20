@@ -460,6 +460,8 @@ python3 tools/meta_skill.py guidance
 
 三者同源，逐层放大。
 
+而 **[私教.skill (swaylq/sijiao-skill)](https://github.com/swaylq/sijiao-skill)** 把方向翻了过来：大师.skill 让 AI 替你成为这一行的大师（**授人以鱼**），私教.skill 把**你自己**练成这个领域的人（**授人以渔**）。
+
 ---
 
 ## 📂 项目结构
