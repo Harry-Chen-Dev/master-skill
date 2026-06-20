@@ -80,6 +80,21 @@ EXIT_CODES = {
 # Academic, standard bodies, government, journal publishers, well-known
 # canonical channels.
 PRIMARY_DOMAINS_EXACT: set[str] = {
+    # iter (web-novel-writing): genuine first-hand domains for Chinese web-novel
+    # writing — national writers-association official platform (originator of the
+    # 「破壁者」author-interview series + 学术综述), platform author-zones / official
+    # rule & ranking pages (vendor/first-party), writing-tool vendor sites, and the
+    # CASS academic platform. Commercial media reposts (腾讯新闻/澎湃/搜狐/光明网/界面/
+    # 36氪/虎嗅) are deliberately NOT whitelisted — they stay secondary (no washing).
+    "www.chinawriter.com.cn", "chinawriter.com.cn",   # 中国作家网 (中国作协官方, 破壁者访谈 originator + 学术综述)
+    "write.qq.com",                                    # 阅文/起点官方作家专区 (写作问答/portal, vendor 一手)
+    "www.fanqienovel.com", "fanqienovel.com",          # 番茄小说官方作家专区 (vendor 一手)
+    "acts.qidian.com", "m.qidian.com", "www.qidian.com", "qidian.com",  # 起点官方规则/榜单/活动 (first-party)
+    "www.cssn.cn", "cssn.cn",                          # 中国社会科学网 (CASS 学术平台 originator)
+    "www.1xiezuo.com", "1xiezuo.com",                  # 壹写作 码字软件 vendor 官网
+    "www.mx-xz.com", "mx-xz.com",                      # 墨星写作网 vendor 官网
+    "www.mogugu.co", "mogugu.co",                      # 墨咕/墨者写作 vendor 官网
+    "www.mubu.com", "mubu.com",                        # 幕布 大纲/思维导图 vendor 官网
     # iter40 (photography): genuine first-party photography vendor / standards-body
     # / optics docs domains — gear & post-processing vendors are first-party for
     # "what this tool is/does", ethics-code publishing bodies are originators.
