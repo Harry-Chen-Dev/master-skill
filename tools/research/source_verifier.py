@@ -500,6 +500,66 @@ PRIMARY_DOMAINS_EXACT: set[str] = {
     "baymard.com", "www.baymard.com",
     "www.hotjar.com", "hotjar.com",
     "www.framer.com", "framer.com",
+    # iter (crypto-onchain-trading): genuine first-party crypto vendor/tool/
+    # exchange/protocol/conference/research domains. On-chain trading is a
+    # data-rich field whose ground-truth lives in analytics-platform docs,
+    # exchange/DEX/wallet official sites, protocol foundations, conference
+    # official event pages, and a few original-research firms. These are the
+    # entity "speaking about its own product/event/research" = verified_primary
+    # (vendor 一手). News/journalism media (The Block / Blockworks / The Defiant /
+    # BlockBeats / PANews / Foresight) deliberately NOT added — they stay secondary.
+    # --- on-chain analytics / data platforms ---
+    "coinglass.com", "www.coinglass.com",
+    "nansen.ai", "www.nansen.ai",
+    "dune.com", "www.dune.com",
+    "defillama.com", "www.defillama.com",
+    "tokenterminal.com", "www.tokenterminal.com",
+    "debank.com", "www.debank.com",
+    "dexscreener.com", "www.dexscreener.com",
+    "gmgn.ai", "www.gmgn.ai",
+    "photon-sol.tinyastro.io",
+    "cryptoquant.com", "www.cryptoquant.com", "userguide.cryptoquant.com",
+    "glassnode.com", "www.glassnode.com", "insights.glassnode.com",
+    "arkm.com", "www.arkm.com", "codex.arkm.com", "intel.arkm.com",
+    "token.unlocks.app",
+    "tokenomist.ai", "www.tokenomist.ai",
+    "rootdata.com", "www.rootdata.com",
+    # --- exchanges / DEX / wallets / security tools ---
+    "metamask.io", "www.metamask.io",
+    "ledger.com", "www.ledger.com",
+    "hyperliquid.xyz", "app.hyperliquid.xyz", "www.hyperliquid.xyz",
+    "jup.ag", "www.jup.ag",
+    "1inch.io", "www.1inch.io",
+    "uniswap.org", "app.uniswap.org", "www.uniswap.org",
+    "rabby.io", "www.rabby.io",
+    "phantom.com", "www.phantom.com",
+    "revoke.cash", "www.revoke.cash",
+    "gopluslabs.io", "www.gopluslabs.io",
+    "de.fi", "www.de.fi",
+    "rugcheck.xyz", "www.rugcheck.xyz",
+    "axiom.trade", "www.axiom.trade",
+    "gmx.io", "www.gmx.io",
+    "dydx.exchange", "www.dydx.exchange",
+    "solana.com", "www.solana.com",
+    "kraken.com", "www.kraken.com",
+    "coinbase.com", "www.coinbase.com",
+    "tradingview.com", "www.tradingview.com",
+    "coingecko.com", "www.coingecko.com",
+    # --- protocol foundations (official) ---
+    "bitcoin.org", "www.bitcoin.org",
+    "ethereum.org", "www.ethereum.org",
+    # --- conferences (official event sites = first-party of the event) ---
+    "token2049.com", "www.token2049.com",
+    "consensus.coindesk.com",
+    "devconnect.org", "www.devconnect.org",
+    "ethdenver.com", "www.ethdenver.com",
+    # --- podcasts (official channel = first-party show) ---
+    "uponly.tv", "www.uponly.tv",
+    "unchainedcrypto.com", "www.unchainedcrypto.com",
+    # --- original-research firms (first-party on-chain research, not journalism) ---
+    "messari.io", "www.messari.io",
+    "a16zcrypto.com", "www.a16zcrypto.com",
+    "delphidigital.io", "www.delphidigital.io", "members.delphidigital.io",
 }
 
 # Suffix patterns for primary (TLD or sub-domain end-match).
@@ -542,6 +602,13 @@ PRIMARY_DOMAIN_SUFFIXES: tuple[str, ...] = (
 PRIMARY_PERSONAL_DOMAINS: set[str] = {
     # iter40 (photography): figure/estate own sites — author blogs + artist foundation
     "henricartierbresson.org", "www.henricartierbresson.org",  # Fondation HCB (作者基金会)
+    # iter (crypto-onchain-trading): figure/author own blogs & self-hosted pubs
+    "www.lynalden.com", "lynalden.com",                         # Lyn Alden 本人宏观站
+    "vitalik.eth.limo", "vitalik.ca",                           # Vitalik Buterin 本人博客
+    "hasu.blog",                                                # Hasu 本人研究博客
+    "uncommoncore.co", "www.uncommoncore.co",                   # Hasu/Uncommon Core 本人研究
+    "woobull.com", "charts.woobull.com",                        # Willy Woo 本人(NVT/链上指标 originator)
+    "cryptohayes.medium.com",                                   # Arthur Hayes 本人 Medium 长文
     "strobist.blogspot.com",                                    # David Hobby 本人 Strobist 原文
     "joemcnally.com", "www.joemcnally.com",                     # Joe McNally 本人博客
     "seantucker.photography", "www.seantucker.photography",     # Sean Tucker 本人教程站
