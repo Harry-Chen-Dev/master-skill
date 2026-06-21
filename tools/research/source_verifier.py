@@ -80,6 +80,26 @@ EXIT_CODES = {
 # Academic, standard bodies, government, journal publishers, well-known
 # canonical channels.
 PRIMARY_DOMAINS_EXACT: set[str] = {
+    # iter (medical-aesthetics 2026-06-21): genuine first-hand domains for Chinese
+    # medical aesthetics / injectables — global device & drug VENDOR official sites
+    # (manufacturer = first-hand for their own 械字号/product spec), peer-reviewed
+    # JOURNAL publishers (OUP/MDPI/Elsevier — scientific literature, recurs in every
+    # medical/scientific field), the CSRC official disclosure platform 巨潮资讯 cninfo
+    # (listed-company filings = issuer first-hand), and the 中华医学会 official journal
+    # platform yiigle (consensus statements = association/originator first-hand).
+    # Industry media (丁香园/39健康/界面/虎嗅/动脉网) is deliberately NOT whitelisted —
+    # stays secondary (no washing of marketing/journalism into primary).
+    "www.juvederm.com", "juvederm.com",               # AbbVie/艾尔建 乔雅登 vendor 官网
+    "www.galderma.com", "galderma.com",               # 高德美 瑞蓝/吉适 vendor 官网
+    "www.imeik.com.cn", "imeik.com.cn",               # 爱美客 Imeik 国产械字号 vendor 官网
+    "www.merzaesthetics.com", "merzaesthetics.com",   # 默茨 Merz 西马/艾维岚/超声炮 vendor 官网
+    "www.solta.com", "solta.com",                     # Solta Medical 热玛吉原厂 vendor 官网
+    "www.canfield.com", "canfield.com",               # Canfield VISIA 原厂 vendor 官网
+    "academic.oup.com",                               # Oxford University Press journals (ASJ 等同行评审)
+    "www.mdpi.com", "mdpi.com",                       # MDPI 同行评审期刊 (Diagnostics 等)
+    "www.sciencedirect.com", "sciencedirect.com",     # Elsevier 期刊全文 (同行评审一手)
+    "www.cninfo.com.cn", "cninfo.com.cn", "static.cninfo.com.cn",  # 巨潮资讯 CSRC 指定披露站 = 发行人一手
+    "rs.yiigle.com", "yiigle.com",                    # 中华医学会杂志社官方期刊平台 (专家共识原文 originator)
     # iter (web-novel-writing): genuine first-hand domains for Chinese web-novel
     # writing — national writers-association official platform (originator of the
     # 「破壁者」author-interview series + 学术综述), platform author-zones / official
