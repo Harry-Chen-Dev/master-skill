@@ -595,6 +595,47 @@ PRIMARY_DOMAINS_EXACT: set[str] = {
     "messari.io", "www.messari.io",
     "a16zcrypto.com", "www.a16zcrypto.com",
     "delphidigital.io", "www.delphidigital.io", "members.delphidigital.io",
+    # iter (semiconductor-process): genuine first-hand domains for IC fabrication —
+    # equipment/EDA vendors (vendor docs), foundry/IDM official tech blogs & investor
+    # disclosures, standards/roadmap bodies (IRDS/IEEE), research institutes (imec/VTT),
+    # academic publishers + journals (OUP/Wiley/AIP), the IEDM conference handout host,
+    # a scientific society (AVS), and a museum archive (CHM oral histories = originator's
+    # own words). Industry media (SemiEngineering/EE Times/SemiWiki/SemiAnalysis) stays
+    # secondary; this only whitelists "the entity speaking about its own thing".
+    # --- equipment / EDA / materials vendors (official vendor docs) ---
+    "asml.com", "www.asml.com",
+    "synopsys.com", "www.synopsys.com",
+    "plasmatherm.com", "www.plasmatherm.com", "corial.plasmatherm.com",
+    "oxinst.com", "plasma.oxinst.com",
+    # --- foundries / IDMs (official tech blog + investor disclosure = first-party) ---
+    "tsmc.com", "www.tsmc.com", "investor.tsmc.com",
+    "intel.com", "www.intel.com", "newsroom.intel.com",
+    "semiconductor.samsung.com",
+    "ibm.com", "www.ibm.com",
+    # --- standards / roadmap bodies (IRDS roadmap = ground-truth spec) ---
+    "irds.ieee.org", "ieee.org", "www.ieee.org",
+    # --- research institutes (own published research) ---
+    "imec-int.com", "www.imec-int.com",
+    "vtt.fi", "www.vtt.fi", "sarjaweb.vtt.fi",
+    # --- academic publishers + journals (peer-reviewed first-hand) ---
+    "global.oup.com", "oup.com",
+    "onlinelibrary.wiley.com", "wiley.com",
+    "pubs.aip.org", "aip.org",
+    # --- scientific society (originator talks, e.g. AVS CMP user group) ---
+    "avs.org", "www.avs.org", "nccavs-usergroups.avs.org",
+    # --- IEDM conference official handout host (first-party of the conference) ---
+    "iedm23.mapyourshow.com", "mys.mapyourshow.com", "iedm.mapyourshow.com",
+    # --- museum archive (Computer History Museum oral histories = originator's words) ---
+    "computerhistory.org", "www.computerhistory.org", "archive.computerhistory.org",
+    # --- original-research / reverse-engineering firms (first-party measurement, NOT
+    # journalism) — the semiconductor analog of the crypto research-firm whitelist
+    # (messari/a16zcrypto/delphi). TechInsights physically delayers & measures shipping
+    # silicon (the de-facto ground truth for real node parameters); IC Knowledge builds
+    # original cost/process-economics models. Their published findings are first-hand
+    # empirical data. Analyst NEWSLETTERS that are commentary/journalism (SemiAnalysis,
+    # SemiEngineering, EE Times) stay secondary.
+    "techinsights.com", "www.techinsights.com",
+    "icknowledge.com", "www.icknowledge.com",
 }
 
 # Suffix patterns for primary (TLD or sub-domain end-match).
@@ -613,6 +654,7 @@ PRIMARY_DOMAIN_SUFFIXES: tuple[str, ...] = (
     ".mil",
     ".int",
     ".org.cn",  # 行业协会
+    ".edu.tw",  # iter (semiconductor-process): Taiwan academic (NYCU/NTU 等) — IC 研究重镇
     ".chinalaw.gov.cn",
     ".readthedocs.io",  # iter 28: OSS project docs (read-the-docs hosted) — first-party
     # iter 29 (study-camp-education): experiential-ed / camp / outdoor-ed standard
@@ -663,6 +705,7 @@ PRIMARY_PERSONAL_DOMAINS: set[str] = {
     "learn.lindsayadlerphotography.com",
     "lindsayadlerphotography.com", "www.lindsayadlerphotography.com",  # Lindsay Adler 本人
     "victorliu.tuchong.com", "thomaskksj.tuchong.com",          # 阿刘/储卫民 图虫创作者主页 (一手)
+    "asianometry.com", "www.asianometry.com",  # iter (semiconductor): Jon Y 本人 newsletter/深度 essay
     "lexfridman.com",
     "latent.space",
     "www.latent.space",
