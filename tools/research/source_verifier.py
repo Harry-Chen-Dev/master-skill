@@ -636,6 +636,19 @@ PRIMARY_DOMAINS_EXACT: set[str] = {
     # SemiEngineering, EE Times) stay secondary.
     "techinsights.com", "www.techinsights.com",
     "icknowledge.com", "www.icknowledge.com",
+    # iter (aigc-creative-workflow 2026-06-22): genuine first-party AIGC visual-creation
+    # MODEL/TOOL VENDOR official sites — first-hand for their own model spec / license /
+    # release notes (parallel to allowlisting Adobe/Figma for design, device vendors for
+    # medical). Black Forest Labs (Flux) rebranded blackforestlabs.ai → bfl.ai; Stability
+    # AI official news/blog; Runway/Luma/Ideogram/Recraft official. arxiv/github/
+    # huggingface/civitai already covered by generic rules. AI-tool review/listicle sites
+    # (pxz.ai/aimagicx 等 /blog SEO) are deliberately NOT whitelisted — stay secondary.
+    "bfl.ai", "www.bfl.ai", "blackforestlabs.ai", "www.blackforestlabs.ai",  # Black Forest Labs / Flux 官方
+    "stability.ai", "www.stability.ai",               # Stability AI 官方 news/blog (SD/SDXL/SD3 originator)
+    "runwayml.com", "www.runwayml.com",               # Runway 官方 (Gen-3/Gen-4 vendor)
+    "lumalabs.ai", "www.lumalabs.ai",                 # Luma Dream Machine 官方
+    "ideogram.ai", "www.ideogram.ai",                 # Ideogram 官方
+    "www.recraft.ai", "recraft.ai",                   # Recraft 官方
 }
 
 # Suffix patterns for primary (TLD or sub-domain end-match).
@@ -807,6 +820,9 @@ PRIMARY_PERSONAL_DOMAINS: set[str] = {
     "articles.uie.com", "uie.com", "www.uie.com",       # Jared Spool — User Interface Engineering
     "measuringu.com", "www.measuringu.com",             # Jeff Sauro — MeasuringU (SUS/quant UX research originator)
     "designbetterpodcast.com", "www.designbetterpodcast.com",  # Design Better — 一手 show 自家站
+    # iter (aigc-creative-workflow 2026-06-22): figure's OWN academic/personal page —
+    # Lvmin Zhang (ControlNet/Fooocus/IC-Light author) self-hosted homepage on github.io.
+    "lllyasviel.github.io",                             # 张吕敏 Lvmin Zhang 本人学术主页 (ControlNet 作者)
 }
 
 # Substack / Beehiiv-hosted newsletters: primary IF subdomain looks like an
