@@ -1,0 +1,42 @@
+{
+  "industry": "广告外包公司绩效管理 (Ad Agency / Marketing-Outsourcing Firm Performance Management) — 广告/营销外包公司(乙方 agency:创意热店/4A/本土广告公司/传媒公司/数字营销代理/MCN/设计工作室/内容外包)的『怎么做绩效管理』职业认知操作系统,面向老板/合伙人、运营总监(COO)、HR/HRBP、项目总监、team lead、以及想搭绩效体系的从业者。覆盖: (a) 第一性张力 — 绩效管理的核心世界观分歧: **创意/知识工作『不可量化』 vs 『必须可考核』(创意难归因、难标准化,硬套 KPI 杀创意;但不考核养懒人——这是本行绩效的元矛盾) ⇄ 结果导向(KPI/业绩/回款) vs 过程导向(OKR/能力/成长) ⇄ 个人绩效 vs 团队协作(广告是集体产物,创意-AE-媒介-设计协作,难拆到个人) ⇄ 强激励(提成制:多劳多得但抢单/短视/不协作/吃老客户) vs 稳定(固定+奖金:公平但大锅饭) ⇄ 规模/流水 vs 利润/人效(低价接单冲规模 vs 保毛利)**; (b) 绩效体系设计 — KPI(关键指标法)/OKR(目标与关键成果)/BSC(平衡计分卡)/360 环评/MBO(目标管理)/KSF(关键成功因子)/积分制/计件提成;考核周期(月/季/年+项目制);绩效面谈、绩效改进 PIP、强制分布(271/活力曲线)争议、绩效结果应用(调薪/晋升/淘汰/奖金); (c) 分岗位绩效(本行难点,各岗量化差异极大) — 创意(文案/美术/创意总监:作品质量、获奖、比稿命中率——最难量化)、AE/客户执行(客户满意度、续约、回款、增购、客诉)、媒介/投放(可量化:ROI/ROAS/CPM/转化——最易量化)、策略/策划(方案通过率、洞察)、设计(产能/返稿率/品质)、项目管理(交付准时率、利润率)、销售/BD(新签、回款、毛利); (d) 项目与客户维度绩效(agency 特有,专业服务公司逻辑) — 项目利润率(收入-人力成本-外部成本)、工时制与人效(billability 可计费工时率/utilization 利用率/realization 实现率,借鉴咨询律所)、人均产值/人均毛利、客户续约率与 LTV、客户集中度风险、比稿投入产出、改稿次数失控; (e) 激励与分配机制 — 提成制(按签单/毛利/回款抽成)、项目奖金分成(如何在创意-AE-媒介间分)、年终奖包、合伙人制/事业合伙人/工作室 studio 制/阿米巴、股权期权、创意人才的非物质激励(署名/获奖/成长); (f) 人效、成本与文化 — 人效比(人力成本占收入比,业内估计通常 40-55%,非普适)、毛利率、加班/血汗工厂文化批判(乙方 996/改稿到凌晨)、人才流失率与保留、招聘与培养、组织架构(客户组 vs 职能组 vs 项目制矩阵); (g) 外包/乙方特有张力对绩效的侵蚀 — 甲乙方权力不对等(甲方压价、无限改稿、比稿白嫖创意、账期长垫款重回款难)、低价内卷与红海、项目制不确定性(旺淡季、大客户依赖)、创意工时不可控如何计入绩效、外包 vs 自建团队的成本对比; (h) 争议/批判 — KPI 量化派 vs 创意不可考核派、提成制养蛊 vs 团队协作、强制分布/末位淘汰是否适合小 agency、工时制(billable hours)被咨询律所验证但绑架员工健康、『向甲方看齐做 OKR』水土不服、绩效主义扼杀创意(索尼绩效主义之殇式批判)、乙方绩效本质是『用考核对冲甲方不确定性』的转嫁; (i) 流派/思想谱系 — 专业服务公司管理派(David Maister《Managing the Professional Service Firm》PSF 圣经:leverage 杠杆/utilization 利用率/billing;借鉴咨询律所会计所) vs agency 专家经营派(David C. Baker《The Business of Expertise》+2Bobs podcast、Blair Enns《Win Without Pitching》《Pricing Creativity》定位与定价) vs OKR/目标管理派(John Doerr《Measure What Matters》、Google/Intel OKR、字节/飞书 OKR 本土化) vs 中式绩效工具派(KSF 薪酬全绩效/积分制/阿米巴/华为绩效体系被广告公司借用) vs 本土 4A/广告公司实战派(省广/蓝色光标/华扬联众/利欧 等上市广告公司管理 + 创意热店工作室制)。不含: 广告投放/信息流/SEM 的技术操作本身、甲方市场部/品牌方内部绩效、通用 HR 招聘薪酬全流程(仅取与绩效相关部分)、纯财务会计做账、MCN 达人孵化运营细节。",
+  "industry_cn": "广告外包公司绩效管理",
+  "industry_en": "Ad Agency / Marketing-Outsourcing Firm Performance Management",
+  "industry_type": "zh-CN-primary-audience / en-primary-canon professional-services (advertising & marketing agency) performance management — creative-work-unmeasurable-vs-must-appraise core tension; KPI/OKR/BSC/提成/合伙人制 systems; per-role appraisal (creative/AE/media/design); project-margin & billability/utilization (PSF logic from Maister); agency-specific 甲乙方/比稿/账期/低价内卷 erosion; canon = Maister PSF bible + David C Baker + Blair Enns + Doerr OKR + 本土 4A/KSF/阿米巴 — NOT fully cold (rich global PSF+agency-management canon via author sites/books/podcasts) but zh-CN agency-specific 一手 thinner (much in 公众号/知乎 blacklist + 培训机构)",
+  "slug": "ad-agency-performance",
+  "title": "广告公司绩效",
+  "focus": "comprehensive",
+  "locale": "zh-CN",
+  "profile": "practitioner",
+  "skip_sub_skills": true,
+  "local_materials": { "mode": "none", "paths": [], "covered_tracks": [] },
+  "existing_skill": { "found": false, "path": null, "last_research_date": null, "decision": "new" },
+  "triggers": [
+    "广告公司绩效",
+    "广告外包绩效管理",
+    "agency 绩效",
+    "广告公司 KPI",
+    "广告公司 OKR",
+    "创意绩效考核",
+    "广告公司提成制",
+    "乙方绩效",
+    "广告公司人效",
+    "项目利润率考核",
+    "billable hours 广告",
+    "工作室制 分成",
+    "创意不可量化 考核",
+    "广告公司薪酬绩效",
+    "营销外包 绩效"
+  ],
+  "warnings": [
+    "locale=zh-CN 受众 / en-primary canon：绩效方法论正典多为英文——David Maister《Managing the Professional Service Firm》(专业服务公司圣经:utilization/leverage/billability)、David C. Baker《The Business of Expertise》+2Bobs podcast、Blair Enns《Win Without Pitching》+《Pricing Creativity》、John Doerr《Measure What Matters》(OKR)。中文一手多为 4A/本土广告公司管理经验 + KSF/阿米巴/积分制培训体系,且大量沉淀在黑名单平台(知乎/公众号/人力资源培训机构)。Track 04 canon 中英失衡须在诚实边界明示;synthesis 引用中文培训内容标 surrogate/二手。",
+    "NOT fully cold(与 management-consulting/enterprise-b2b-sales 同类):全球 PSF+agency 管理 canon 极丰富且可取一手——Maister 全套文章在 davidmaister.com 免费、David C Baker 在 punctuation.com+2Bobs podcast、Blair Enns 在 winwithoutpitching.com、Doerr/whatmatters.com。verified_primary 目标 ≥50%。若 figures track 大量依赖 LinkedIn 短帖/知乎/公众号转述 = 信号质量问题,应换作者书/官网/长 podcast。**LinkedIn 文章正文、知乎、微信公众号、百度、CSDN、简书、人力资源类内容农场进黑名单**。",
+    "数字类高危(人力成本占收入 40-55% / 毛利率 / billability 利用率目标 60-80% / 提成比例 / 人均产值 / 创意人才流失率 20-30% / 账期 60-90 天 / 改稿次数)多为行业经验值+培训机构话术+咨询数据 → synthesis 引用须挂 source_id 或 caveat(行业经验/约/培训机构口径/咨询报告)。严防把单一培训机构 KSF 话术或某本畅销书数字当 universal 事实。",
+    "创意『不可量化』是核心张力最易被两个极端简化:① 外行『KPI 一切皆可量化』硬套→杀创意(索尼绩效主义之殇式批判须保留);② 另一极端『创意神圣不可考核』→养懒人、老板算不清账。synthesis 须把『创意质量(难量化,靠专家评议/获奖/作品)+ 交付效率(可量化,工时/准时/返稿)+ 商业结果(可量化,项目利润/客户续约)』三层拆开,不能一刀切。",
+    "中式绩效工具(KSF 薪酬全绩效/积分制/阿米巴/华为 PBC)在中文培训圈被包装成万能药,大量二手洗稿+课程营销。识别话术,取其真实机理(与 OKR/KPI/Maister 的对应关系),不背书培训机构的『一套体系包治百病』。管理咨询/HR SaaS 厂商(北森/Moka/盖雅/Tita/飞书)的方法论白皮书标 surrogate_primary(vendor docs)。",
+    "乙方绩效的特殊性:甲乙方权力不对等(压价/无限改稿/比稿白嫖/账期垫款)会系统性侵蚀 agency 利润与员工绩效,是外包公司绩效区别于甲方/一般企业的根本。synthesis 须把『绩效本质是用内部考核对冲甲方不确定性的转嫁』这层讲透,不能写成脱离甲乙方关系的纯 HR 绩效。",
+    "时效层(中 decay):OKR 在国内 2019-2023 热潮后回落、AI 对创意岗产能与考核的冲击(2024-2026 AIGC 让设计/文案产能重估、按产出考核受挑战)、经济下行下广告预算收缩对 agency 人效/裁员/绩效收紧的影响。工具栈新兴层 + AIGC 对创意绩效冲击须标 last_checked + caveat。",
+    "sub-skills skip:owner 未要求把 figures 做成 sub-skill。",
+    "title「广告公司绩效」= 6 codepoints,在 4-12 区间,无禁用字符。"
+  ]
+}
