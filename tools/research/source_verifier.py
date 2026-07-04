@@ -80,6 +80,19 @@ EXIT_CODES = {
 # Academic, standard bodies, government, journal publishers, well-known
 # canonical channels.
 PRIMARY_DOMAINS_EXACT: set[str] = {
+    # iter41 (amazon-operating-model 2026-07-04): The Amazon Way — Amazon's OWN
+    # first-party properties (company speaking about itself = originator primary):
+    # newsroom + investor relations (hosts the 1997-2021 shareholder letters) + the
+    # official Leadership Principles / careers site. Plus the Working Backwards authors'
+    # official concept site (Bryar & Carr, ex-Amazon execs who codified the mechanisms
+    # = originator) and the Q4 IR CDN serving Amazon's official shareholder-letter PDFs
+    # (issuer filing = first-hand). Media ABOUT Amazon (nytimes/geekwire/fortune/cnbc/
+    # firstround/commoncog/startuparchive) deliberately stays secondary — no washing.
+    "www.aboutamazon.com", "aboutamazon.com",          # Amazon 官方 newsroom(股东信/文化)
+    "ir.aboutamazon.com",                              # Amazon 投资者关系(股东信档案)
+    "www.amazon.jobs", "amazon.jobs",                  # 官方 Leadership Principles / careers
+    "www.workingbackwards.com", "workingbackwards.com",  # Bryar & Carr 官方机制站(originator)
+    "s2.q4cdn.com",                                     # Q4 IR CDN:Amazon 官方股东信 PDF(issuer)
     # iter (medical-aesthetics 2026-06-21): genuine first-hand domains for Chinese
     # medical aesthetics / injectables — global device & drug VENDOR official sites
     # (manufacturer = first-hand for their own 械字号/product spec), peer-reviewed
@@ -737,6 +750,10 @@ PRIMARY_DOMAIN_SUFFIXES: tuple[str, ...] = (
 # Known author / podcast / personal blog primaries (heuristic).
 # This list is non-exhaustive — agent can extend per industry research.
 PRIMARY_PERSONAL_DOMAINS: set[str] = {
+    # iter41 (amazon-operating-model 2026-07-04): ex-Amazon insider & concept-originator
+    # own publications — first-hand accounts of mechanisms they personally operated.
+    "www.scarletink.com", "scarletink.com",            # Dave Anderson(前 Amazon Bar Raiser)亲历
+    "www.jimcollins.com", "jimcollins.com",            # Jim Collins 本人站(flywheel 概念原创者)
     # iter40 (photography): figure/estate own sites — author blogs + artist foundation
     "henricartierbresson.org", "www.henricartierbresson.org",  # Fondation HCB (作者基金会)
     # iter (crypto-onchain-trading): figure/author own blogs & self-hosted pubs
